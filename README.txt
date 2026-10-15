@@ -1,0 +1,1 @@
+Kartbi V14 mobil web/PWA test paketi. ZIP icindeki dosyalari bir HTTPS statik hosting servisine yukleyin. iPhone Safari: Paylas > Ana Ekrana Ekle. Demo prototipidir; gercek uyelik, banka API ve push yoktur. HTML dosyasini tek basina acmak PWA kurulumunu saglamaz.
