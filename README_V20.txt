@@ -1,0 +1,1 @@
+Kartbi V20: 10 resmi kaynak kampanya onizlemesi. Yalnizca bilgilendirme; lisansli yayim ve kesin kazanim hesabi degildir. data/official_previews.json dosyasini data klasorune yukleyin. Tum kaynaklari bankadan kontrol edin.
