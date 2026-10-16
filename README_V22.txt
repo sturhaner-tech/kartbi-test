@@ -1,0 +1,1 @@
+Kartbi V22: Karşılaştırma ekranında kurgusal TEST modu varsayılan olarak açıktır. 6 bankada market senaryoları ve Akbank e-ticaret örneği bulunur. Bu kazanımlar gerçek kampanya değildir. Gerçek banka kaynak önizlemeleri kazanım hesabına alınmaz. GitHub Pages için tüm klasör yapısını koruyun.
