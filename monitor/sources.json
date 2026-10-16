@@ -1,0 +1,32 @@
+[
+  {
+    "bank": "Garanti BBVA",
+    "url": "https://www.bonus.com.tr/kampanyalar",
+    "permission_status": "review_required"
+  },
+  {
+    "bank": "Yapı Kredi",
+    "url": "https://www.worldcard.com.tr/kampanyalar",
+    "permission_status": "review_required"
+  },
+  {
+    "bank": "Akbank",
+    "url": "https://www.axess.com.tr/axess/kampanyalar",
+    "permission_status": "review_required"
+  },
+  {
+    "bank": "İş Bankası",
+    "url": "https://www.maximum.com.tr/kampanyalar",
+    "permission_status": "review_required"
+  },
+  {
+    "bank": "Halkbank",
+    "url": "https://www.paraf.com.tr/kampanyalar",
+    "permission_status": "review_required"
+  },
+  {
+    "bank": "QNB",
+    "url": "https://www.qnbcard.com.tr/kampanyalar",
+    "permission_status": "review_required"
+  }
+]
