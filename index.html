@@ -76,9 +76,9 @@ function cardsView(){
  return `<div class="panel"><h2>Kart türlerim</h2><p class="muted">İstediğin kadar farklı bankadan kart türü seçebilirsin. Banka başlığına dokunarak aç veya kapat. Seçimlerin diğer bankalara geçince silinmez.</p><div class="selected-summary"><b>${selected.length} kart türü seçili · ${new Set(selected.map(c=>c.bank)).size} banka</b><div>${selected.map(c=>`<button class="selected-chip" onclick="inputCard('${c.id}')">${esc(c.product)} ×</button>`).join('')||'<span class="muted">Henüz seçim yapılmadı.</span>'}</div></div><label>Kart türü ara</label><input placeholder="Wings, Bonus, Platinum, World..." value="${esc(search)}" oninput="search=this.value;render()"><button onclick="go('sources')">Resmi katalog kaynakları ↗</button><p class="muted">Not: TROY, Visa ve Mastercard kart ailesi değil, ödeme ağıdır. Kart ürününe göre değişebilir.</p>${grouped}<div class="sp"></div><button class="primary" onclick="go('compare')">Seçtiğim kartları karşılaştır →</button></div>`;
 }
 let officialPreviews=[];let previewLoadState='Resmî kaynak özetleri yükleniyor';
-async function loadOfficialPreviews(){try{const r=await fetch('./data/official_previews.json?v=24',{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);const d=await r.json();officialPreviews=Array.isArray(d.campaigns)?d.campaigns.filter(c=>c.end>=new Date().toLocaleDateString('sv-SE')):[];previewLoadState=officialPreviews.length+' resmî kaynak önizlemesi · son kontrol: '+(d.checkedOn||'bilinmiyor');}catch(e){previewLoadState='Kaynak özetleri okunamadı';}render()}
+async function loadOfficialPreviews(){try{const r=await fetch('./data/official_previews.json?v=27',{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);const d=await r.json();officialPreviews=Array.isArray(d.campaigns)?d.campaigns.filter(c=>c.end>=new Date().toLocaleDateString('sv-SE')):[];previewLoadState=officialPreviews.length+' resmî kaynak önizlemesi · son kontrol: '+(d.checkedOn||'bilinmiyor');}catch(e){previewLoadState='Kaynak özetleri okunamadı';}render()}
 
-let filterTestMode=true, bankCriteria={};
+let filterTestMode=false, bankCriteria={};
 const TEST_OFFERS=[["Akbank", "Axess", "Standart", "Ödeme ağı karta göre değişir", "Market", 150], ["Akbank", "Wings", "Seyahat", "Ödeme ağı doğrulanmalı", "Seyahat", 300], ["Yapı Kredi", "World", "Standart", "Doğrulanmadı / varyanta bağlı", "Restoran", 100], ["Garanti BBVA", "Bonus", "Classic", "Doğrulanmadı / varyanta bağlı", "Market", 75], ["İş Bankası", "Maximum", "Standart", "Doğrulanmadı / varyanta bağlı", "Giyim", 200], ["Halkbank", "Paraf", "Standart", "Doğrulanmadı / varyanta bağlı", "Market", 120], ["QNB", "QNB Kredi Kartı", "Standart", "Doğrulanmadı / varyanta bağlı", "Teknoloji", 250]].map((a,i)=>({id:'mock-'+i,bank:a[0],family:a[1],segment:a[2],network:a[3],category:a[4],title:'TEST · '+a[1]+' '+a[4],summary:'Tamamen kurgusal test kampanyası. Örnek kazanım: '+a[5]+' TL.',reward:a[5],start:'2026-01-01',end:'2027-12-31',isTest:true}));
 function setBankCriterion(bank,key,value){
  const f=bankCriteria[bank]||(bankCriteria[bank]={family:'',segment:'',network:''});
@@ -111,7 +111,8 @@ function filteredCampaigns(){
  if(campaignSearch&&![c.title,c.summary,c.bank,c.category].join(' ').toLocaleLowerCase('tr').includes(campaignSearch.toLocaleLowerCase('tr')))return false;
  const f=bankCriteria[c.bank]||{};
  if(campaignBanks.includes(c.bank)&&(f.family||f.segment||f.network)){
- if(!filterTestMode)return false;
+ if(c.eligibleFamilies&&f.family&&!c.eligibleFamilies.includes(f.family))return false;
+ if(!filterTestMode)return !(f.segment||f.network);
  if(f.family&&f.family!==c.family)return false;
  if(f.segment&&f.segment!==c.segment)return false;
  if(f.network&&f.network!==c.network)return false;
@@ -149,8 +150,8 @@ function campaignDetailView(){
 function previewView(){
  const pool=filterTestMode?TEST_OFFERS:officialPreviews;
  const list=filteredCampaigns();
- return `<div class="panel"><h2>Kampanyaları keşfet · V25</h2><p class="muted">Bankayı seçince kart ailesi, segment ve ödeme ağı hemen altında açılır. Birden fazla banka seçebilirsin.</p>
- <div class="note"><b>${filterTestMode?'KURGUSAL TEST VERİSİ':'RESMÎ KAYNAK ÖNİZLEMELERİ'}</b> · ${filterTestMode?'7 örnek kayıtla filtreleri dene. Gerçek kampanya veya kazanç değildir.':'Kart-segment uygunluğu doğrulanmamış kayıtlarda alt filtre kullanıldığında sonuç gösterilmez.'}</div>
+ return `<div class="panel"><h2>Kampanyaları keşfet · V26</h2><p class="muted">Bankayı seçince kart ailesi, segment ve ödeme ağı hemen altında açılır. Birden fazla banka seçebilirsin.</p>
+ <div class="note"><b>${filterTestMode?'KURGUSAL TEST VERİSİ':'RESMÎ BANKA SAYFALARINDAN ÖZETLER'}</b> · ${filterTestMode?'7 örnek kayıtla filtreleri dene. Gerçek kampanya veya kazanç değildir.':'Kart ailesi bilinen kampanyalarda aile filtresi çalışır; segment ve ödeme ağı doğrulanmadığında uygunluk kesinleşmez.'}</div>
  <label style="display:flex;align-items:center;gap:8px"><input type="checkbox" style="width:auto" ${filterTestMode?'checked':''} onchange="filterTestMode=this.checked;category='Tümü';render()"> Test kampanyalarını göster</label>
  <p class="muted"><span id="campaign-count">${list.length} sonuç</span></p>
  <label>Ara<input id="campaign-search" value="${esc(campaignSearch)}" placeholder="Market, seyahat..." oninput="campaignSearchChanged(this.value)"></label>
@@ -217,7 +218,73 @@ function evaluateOffer(c,card){
  reward=Math.min(reward,cap);
  return {state:'potential',reward,reason:c.participation==='required'?'Katılım gerekli; diğer banka koşullarını kontrol et':'Tanımlı koşullar sağlanıyor; banka koşullarını kontrol et'};
 }
-function compareView(){
+let realMode=true;
+let calcInputs={merchant:'',joined:false,first:true,priorCount:0,priorSpend:0,age:30,worldPay:false,troy:false};
+function setCalcInput(k,v){calcInputs[k]=v;render()}
+const REAL_RULES={
+ 'ak-market':{min:30000,reward:500,cap:1000,family:'Axess',merchant:'market'},
+ 'ak-flo':{min:2500,reward:300,family:'Axess',merchant:'flo',first:true},
+ 'ak-enplus':{min:15000,reward:1000,family:'Axess',merchant:'enplus',first:true},
+ 'ak-ozd':{min:3000,reward:350,family:'Axess',merchant:'ozdilekteyim',first:true},
+ 'ak-obilet':{min:2000,reward:150,family:'Axess',merchant:'obilet',first:true},
+ 'yk-dr':{min:1500,reward:335,family:'World',merchant:'d&r'},
+ 'yk-giyim':{min:3000,reward:100,extraWorldPay:50,cap:1500,family:'World',merchant:'giyim',afterFirst:true},
+ 'gar-yemek':{min:300,reward:100,cap:300,family:'Bonus',merchant:'yemek',ageMax:26},
+ 'hal-market':{cumulative:30000,reward:1000,family:'Paraf',merchant:'market'},
+ 'hal-troy':{min:1500,reward:100,cap:400,family:'Paraf',merchant:'restoran',troy:true},
+ 'is-market':{cumulative:15000,reward:750,family:'Maximum',merchant:'market',multi:true}
+};
+function calcReal(c,card){
+ const r=REAL_RULES[c.id];if(!r)return {state:'unknown',reason:'Hesaplama kuralı henüz tanımlanmadı'};
+ if(c.bank!==card.bank||card.customer==='Ticari'||card.family!==r.family)return {state:'excluded',reason:'Kart ailesi veya müşteri türü uygun değil'};
+ if(scenario.date<c.start||scenario.date>c.end)return {state:'excluded',reason:'Kampanya tarihleri dışında'};
+ if(c.category!==scenario.category)return {state:'excluded',reason:'Kategori farklı'};
+ const merchant=calcInputs.merchant.toLocaleLowerCase('tr-TR').trim();
+ if(!merchant)return {state:'unknown',reason:'İşyeri/marka bilgisi girilmeli'};
+ if(r.merchant==='flo'&&!merchant.includes('flo'))return {state:'excluded',reason:'FLO işyerinde değil'};
+ if(r.merchant==='enplus'&&!merchant.includes('enplus'))return {state:'excluded',reason:'Enplus işyerinde değil'};
+ if(r.merchant==='ozdilekteyim'&&!merchant.includes('özdilek')&&!merchant.includes('ozdilek'))return {state:'excluded',reason:'Özdilekteyim işyerinde değil'};
+ if(r.merchant==='obilet'&&!merchant.includes('obilet'))return {state:'excluded',reason:'obilet işyerinde değil'};
+ if(r.merchant==='d&r'&&!merchant.includes('d&r')&&!merchant.includes('dr.com'))return {state:'excluded',reason:'D&R işyerinde değil'};
+ if(r.merchant==='market'&&!/market|migros|carrefour|a101|bim|şok|sok/.test(merchant))return {state:'unknown',reason:'İşyerinin banka sistemindeki market kategorisi teyit edilmeli'};
+ if(r.merchant==='giyim'&&!/giyim|kıyafet|magaza|mağaza/.test(merchant))return {state:'unknown',reason:'İşyerinin giyim sektöründe ve World üye işyeri olduğu teyit edilmeli'};
+ if(r.merchant==='yemek'&&!/yemek|restoran|trendyol|yemeksepeti|getir/.test(merchant))return {state:'unknown',reason:'Uygun yemek platformu teyit edilmeli'};
+ if(r.merchant==='restoran'&&!/restoran|kafe|cafe/.test(merchant))return {state:'unknown',reason:'Restoran/kafe işyeri sektörü teyit edilmeli'};
+ if(r.ageMax&&calcInputs.age>r.ageMax)return {state:'excluded',reason:'Yaş koşulu sağlanmıyor'};
+ if(r.troy&&!calcInputs.troy)return {state:'unknown',reason:'TROY logolu kart kullanımı doğrulanmalı'};
+ if(r.first&&!calcInputs.first)return {state:'excluded',reason:'İlk alışveriş koşulu sağlanmıyor'};
+ if(r.afterFirst&&calcInputs.priorCount<1)return {state:'unknown',reason:'İlk alışverişten sonraki işlem koşulu sağlanmadı'};
+ if(!calcInputs.joined)return {state:'unknown',reason:'Kampanyaya harcamadan önce katılım doğrulanmalı'};
+ if(r.multi)return {state:'unknown',reason:'15.000 TL birikimli ve işlem başına 1.500 TL altı koşulları tek tutarla doğrulanamaz; işlem dökümü gerekli'};
+ if(r.cumulative){if(calcInputs.priorSpend+scenario.amount<r.cumulative)return {state:'excluded',reason:'Birikimli harcama eşiğine ulaşılmadı'};return {state:'conditional',reward:r.reward,reason:'Birikimli eşik sağlanıyor varsayımıyla; uygun önceki işlemler ve POS doğrulanmalı'}}
+ if(scenario.amount<r.min)return {state:'excluded',reason:'Asgari işlem tutarı '+r.min.toLocaleString('tr-TR')+' TL'};
+ let reward=r.reward+(r.extraWorldPay&&calcInputs.worldPay?r.extraWorldPay:0);
+ if(r.cap)reward=Math.min(reward,r.cap);
+ return {state:'conditional',reward,reason:'Hesaplanan ödül; işyeri/POS, katılım ve kampanya limitleri banka tarafından teyit edilmeli'};
+}
+function compareRealView(){
+ const money=n=>Number(n).toLocaleString('tr-TR',{style:'currency',currency:'TRY'});
+ const cards=CARDS.filter(c=>S.selected.includes(c.id));
+ const cats=[...new Set(officialPreviews.map(c=>c.category))];
+ const rows=cards.map(card=>({card,offers:officialPreviews.map(c=>({c,...calcReal(c,card)})).filter(x=>x.state!=='excluded')}));
+ return `<div class="panel"><h2>Gerçek kampanya kazanım hesaplama · V27</h2><div class="note">Bu hesaplama <b>koşullu ve test amaçlıdır</b>. Banka tarafından onaylanmış kesin kazanım değildir. Yalnızca kampanya sayfalarından derlenen kurallar kullanılır.</div>
+ <div class="grid"><label>Alışveriş tutarı (TL)<input type="number" min="1" value="${scenario.amount}" onchange="setScenario('amount',Math.max(1,Number(this.value)||1))"></label>
+ <label>Kategori<select onchange="setScenario('category',this.value)">${cats.map(x=>`<option ${x===scenario.category?'selected':''}>${esc(x)}</option>`).join('')}</select></label>
+ <label>Alışveriş tarihi<input type="date" value="${scenario.date}" onchange="setScenario('date',this.value)"></label>
+ <label>İşyeri / marka<input value="${esc(calcInputs.merchant)}" placeholder="Örn. FLO, D&R, Migros" onchange="setCalcInput('merchant',this.value)"></label>
+ <label>Önceki uygun harcama toplamı (TL)<input type="number" min="0" value="${calcInputs.priorSpend}" onchange="setCalcInput('priorSpend',Math.max(0,Number(this.value)||0))"></label>
+ <label>Önceki uygun işlem sayısı<input type="number" min="0" value="${calcInputs.priorCount}" onchange="setCalcInput('priorCount',Math.max(0,Number(this.value)||0))"></label>
+ <label>Yaş<input type="number" min="0" value="${calcInputs.age}" onchange="setCalcInput('age',Number(this.value)||0)"></label></div>
+ <div class="grid"><label><input type="checkbox" ${calcInputs.joined?'checked':''} onchange="setCalcInput('joined',this.checked)"> Kampanyaya harcamadan önce katıldım (test varsayımı)</label>
+ <label><input type="checkbox" ${calcInputs.first?'checked':''} onchange="setCalcInput('first',this.checked)"> Bu kampanyadaki ilk uygun alışverişim</label>
+ <label><input type="checkbox" ${calcInputs.worldPay?'checked':''} onchange="setCalcInput('worldPay',this.checked)"> World Pay ile ödeme</label>
+ <label><input type="checkbox" ${calcInputs.troy?'checked':''} onchange="setCalcInput('troy',this.checked)"> TROY logolu kartla ödeme</label></div>
+ <button onclick="realMode=false;render()">Kurgusal hesaplama moduna geç</button></div>
+ ${!cards.length?'<div class="panel">Önce kart türü seçmelisin. <button onclick="go(\'cards\')">Kart seç</button></div>':rows.map(({card,offers})=>`<div class="panel"><h3>${esc(card.bank)} · ${esc(card.product)}</h3>${offers.map(o=>`<div class="card" style="margin:10px 0"><b>${esc(o.c.title)}</b><p class="muted">${esc(o.reason)}</p>${o.state==='conditional'?`<p class="good"><b>Koşullu hesaplanan: ${money(o.reward)}</b></p>`:'<p class="warn">Tutar hesaplanamadı</p>'}<a href="${esc(o.c.source)}" target="_blank" rel="noopener noreferrer">Banka koşullarını aç ↗</a></div>`).join('')||'<p>Bu kart ve kategoride eşleşen kampanya bulunamadı.</p>'}</div>`).join('')}
+ <div class="panel note">İşyeri POS kodu, müşteri bazlı limit, önceki işlemler ve bazı kart istisnaları otomatik doğrulanmaz. Farklı kampanyaların ödülleri birleştirilmez.</div>`;
+}
+function compareView(){if(realMode)return compareRealView();
+
  if(mode==='none')return homeView();
  const selected=CARDS.filter(x=>S.selected.includes(x.id));
  const pool=demoCalculation?SAMPLE_RULES:S.campaigns.filter(c=>c.status==='published');
