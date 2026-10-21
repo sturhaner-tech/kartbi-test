@@ -1,305 +1,184 @@
 {
   "schemaVersion": 1,
-  "reviewType": "public-source-preview-not-authorized-for-republication",
-  "checkedOn": "2026-10-16",
+  "checkedOn": "2026-10-21",
+  "reviewType": "official-link-summary-no-licence",
   "campaigns": [
     {
-      "id": "akb-market-202610",
+      "id": "ak-market",
       "bank": "Akbank",
       "category": "Market",
-      "title": "Axess ile market ve gıda alışverişlerine 1.000 TL’ye varan chip-para",
+      "title": "Axess market/gıda harcamasına chip-para",
       "start": "2026-10-01",
       "end": "2026-10-31",
-      "summary": "30.000 TL ve üzeri harcamaya 500 TL; toplam üst limit 1.000 TL. İlk işlemden önce katılım gerekir. Tek alışverişten kesin kazanım çıkarılamaz.",
+      "summary": "30.000 TL ve üzeri uygun market/gıda harcamasına 500 TL; kampanya toplam ödül üst limiti 1.000 TL. Harcamadan önce Juzdan veya SMS ile katılım gerekir.",
       "source": "https://www.axess.com.tr/axess/kampanyalar/axess-ile-market-ve-gida-alisverislerinize-1000-tl-chip-para-firsati-",
-      "eligibility": "Axess sayfasında; Wings ve diğer kartlar için uygunluk ayrıca teyit edilmeli."
+      "eligibility": "Axess; diğer kart türlerini banka sayfasından doğrulayın.",
+      "eligibleFamilies": [
+        "Axess"
+      ],
+      "reviewStatus": "source-preview",
+      "usagePermission": "not-granted"
     },
     {
-      "id": "isb-sok-202610",
-      "bank": "İş Bankası",
-      "category": "Market",
-      "title": "Cepte Şok alışverişlerine 400 TL’ye varan MaxiPuan",
-      "start": "2026-10-01",
-      "end": "2026-10-31",
-      "summary": "Cepte Şok üzerinden farklı günlerde tek seferde 2.500 TL ve üzeri alışveriş başına 200 TL, toplam 400 TL. İşCep / Maximum Mobil katılımı gerekli.",
-      "source": "https://www.isbank.com.tr/kampanyalar/gida-market-kampanyalari",
-      "eligibility": "Maximum Kart; kart segmenti ve diğer ayrıntılar resmi koşullardan teyit edilmeli."
-    },
-    {
-      "id": "isb-bonveno-202610",
-      "bank": "İş Bankası",
-      "category": "Market",
-      "title": "bonVeno marketlerinde 50 TL MaxiPuan",
-      "start": "2026-10-01",
-      "end": "2026-10-31",
-      "summary": "bonVeno’da 500 TL ve üzeri ilk alışverişe 50 TL MaxiPuan; önceden katılım gerekli.",
-      "source": "https://www.isbank.com.tr/kampanyalar/gida-market-kampanyalari",
-      "eligibility": "Maximum Kart koşulları ve katılım resmi sayfadan teyit edilmeli."
-    },
-    {
-      "id": "yk-carrefour-202610",
-      "bank": "Yapı Kredi",
-      "category": "Market",
-      "title": "CarrefourSA’da peşin fiyatına 4 aya varan taksit",
-      "start": "2026-10-01",
-      "end": "2026-10-31",
-      "summary": "Taksit avantajı; nakit ödül değildir. Uygun işyeri, ürün ve kart koşulları kontrol edilmeli.",
-      "source": "https://www.worldcard.com.tr/kampanyalar/gida-market",
-      "eligibility": "World kampanya sayfasında; seçili kart ürününe uygulanması doğrulanmalı."
-    },
-    {
-      "id": "gar-market-202610",
-      "bank": "Garanti BBVA",
-      "category": "Market",
-      "title": "Market alışverişlerine 1.200 TL, BonusFlaş ödemelerine 1.500 TL’ye varan bonus",
-      "start": "2026-10-01",
-      "end": "2026-10-31",
-      "summary": "Başlıktaki tutarlar üst sınırdır. İşlem sayısı, harcama eşiği, katılım ve ödeme yöntemi koşulları incelenmeden kazanım hesaplanamaz.",
-      "source": "https://www.bonus.com.tr/kampanyalar/sektor/market",
-      "eligibility": "Bonus kampanya sayfasında; ürün/segment ve ödeme koşulları ayrıca teyit edilmeli."
-    },
-    {
-      "id": "akb-ozdilekteyim-202610",
+      "id": "ak-flo",
       "bank": "Akbank",
-      "category": "Online Alışveriş",
-      "title": "Özdilekteyim’de 3.000 TL ve üzeri ilk alışverişe 350 TL chip-para",
+      "category": "Giyim",
+      "title": "FLO’da 300 TL chip-para",
       "start": "2026-10-01",
       "end": "2026-10-31",
-      "summary": "Özdilekteyim online mağazasında ilk 3.000 TL ve üzeri alışveriş; işlemden önce Juzdan veya SMS ile katılım gerekiyor. Özdilek fiziksel mağazaları kapsam dışı.",
-      "source": "https://www.axess.com.tr/axess/kampanyalar/ozdilekteyimde-3000-tl-ve-uzeri-ilk-alisverisinizde-350-tl-chip-para",
-      "eligibility": "Resmî koşullarda Axess, Wings, Free, Akbank Kart ve ticari kartlar sayılıyor; diğer koşulları kontrol edin."
+      "summary": "FLO veya flo.com.tr üzerinden tek seferde ilk 2.500 TL ve üzeri alışverişe 300 TL chip-para. Harcamadan önce FLO yazıp 4566’ya SMS ile kayıt şartı var.",
+      "source": "https://www.axess.com.tr/axess/kampanyalar/axesse-ozel-floda-300-tl-chip-para",
+      "eligibility": "Axess kampanyası; kapsamı banka sayfasından doğrulayın.",
+      "eligibleFamilies": [
+        "Axess"
+      ],
+      "reviewStatus": "source-preview",
+      "usagePermission": "not-granted"
     },
     {
-      "id": "akb-enplus-202610",
+      "id": "ak-enplus",
       "bank": "Akbank",
-      "category": "Ev & Yaşam",
-      "title": "Enplus’ta 15.000 TL ve üzeri ilk alışverişe 1.000 TL chip-para",
+      "category": "Teknoloji",
+      "title": "Enplus’ta 1.000 TL chip-para",
       "start": "2026-10-01",
       "end": "2026-10-31",
-      "summary": "Enplus mağazaları veya enplus.com.tr üzerinde ilk 15.000 TL ve üzeri alışveriş. İlk harcamadan önce Juzdan veya SMS ile katılım gerekli.",
+      "summary": "Enplus mağazaları ve enplus.com.tr’de ilk 15.000 TL ve üzeri alışverişe 1.000 TL chip-para. Önceden Juzdan/SMS katılımı gerekir.",
       "source": "https://www.axess.com.tr/axess/kampanyalar/enplusta-1000-tl-chip-para",
-      "eligibility": "Kart ürününe ilişkin tüm istisnalar resmî koşullardan kontrol edilmeli."
+      "eligibility": "Axess sayfasındaki kart kapsamı geçerlidir.",
+      "eligibleFamilies": [
+        "Axess"
+      ],
+      "reviewStatus": "source-preview",
+      "usagePermission": "not-granted"
     },
     {
-      "id": "akb-obilet-202610",
+      "id": "ak-ozd",
+      "bank": "Akbank",
+      "category": "Online alışveriş",
+      "title": "Özdilekteyim’de 350 TL chip-para",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "summary": "Özdilekteyim’de 3.000 TL ve üzeri ilk alışverişe 350 TL chip-para. İlk harcamadan önce Juzdan veya SMS ile katılım gerekir.",
+      "source": "https://www.axess.com.tr/axess/kampanyalar/ozdilekteyimde-3000-tl-ve-uzeri-ilk-alisverisinizde-350-tl-chip-para",
+      "eligibility": "Axess; diğer kartların uygunluğu ayrıca teyit edilmeli.",
+      "eligibleFamilies": [
+        "Axess"
+      ],
+      "reviewStatus": "source-preview",
+      "usagePermission": "not-granted"
+    },
+    {
+      "id": "ak-obilet",
       "bank": "Akbank",
       "category": "Seyahat",
-      "title": "obilet’te 2.000 TL ve üzeri ilk alışverişe 150 TL chip-para",
+      "title": "obilet’te 150 TL chip-para",
       "start": "2026-10-01",
       "end": "2026-10-31",
-      "summary": "obilet sitesi/uygulamasında kampanyaya dahil ilk 2.000 TL ve üzeri seyahat işlemi. Önceden katılım gerekiyor.",
+      "summary": "obilet.com veya uygulamasında ilk 2.000 TL ve üzeri uygun seyahat alışverişine 150 TL chip-para. Harcamadan önce katılım gerekir.",
       "source": "https://www.axess.com.tr/axess/kampanyalar/axesse-ozel-obiletcomda-150-tlye-varan-chip-para",
-      "eligibility": "Axess kampanya sayfası; Wings ve diğer ürün uygunlukları ayrıca doğrulanmalı."
+      "eligibility": "Axess; kapsam banka sayfasından kontrol edilmeli.",
+      "eligibleFamilies": [
+        "Axess"
+      ],
+      "reviewStatus": "source-preview",
+      "usagePermission": "not-granted"
     },
     {
-      "id": "isb-market-birikimli-202610",
+      "id": "is-market",
       "bank": "İş Bankası",
       "category": "Market",
-      "title": "Birikimli market harcamalarına 750 TL MaxiPuan",
+      "title": "Birikimli market harcamasına 750 TL MaxiPuan",
       "start": "2026-10-01",
       "end": "2026-10-31",
-      "summary": "Maximum anlaşmalı marketlerde tek işlemde 1.500 TL altındaki peşin alışverişlerin toplamı 15.000 TL ve üzerindeyse 750 TL MaxiPuan. İşCep/Maximum Mobil katılımı gerekli.",
+      "summary": "Maximum anlaşmalı marketlerde her biri 1.500 TL altında olan peşin işlemlerin toplamı 15.000 TL’ye ulaşırsa 750 TL MaxiPuan. Katılım gerekir; tek 15.000 TL işlem geçerli değildir.",
       "source": "https://www.maximum.com.tr/kampanyalar/maximumdan-birikimli-market-alisverislerinize-maxipuan-kampanyasi",
-      "eligibility": "Maximum Kart ve resmî sayfada belirtilen kart/işyeri koşulları; tek alışverişle kazanım varsayılmamalı."
+      "eligibility": "Maximum Kart; detaylı kart listesi ve POS koşulları resmî sayfada.",
+      "eligibleFamilies": [
+        "Maximum"
+      ],
+      "reviewStatus": "source-preview",
+      "usagePermission": "not-granted"
     },
     {
-      "id": "isb-troy-getir-ticari-202610",
-      "bank": "İş Bankası",
-      "category": "Market",
-      "title": "TROY ticari kartla Getir ve GetirBüyük indirimleri",
-      "start": "2026-09-21",
-      "end": "2026-10-21",
-      "summary": "İş Bankası TROY logolu ticari kartlarda Getir 750 TL üzeri 150 TL, GetirBüyük 2.000 TL üzeri 500 TL veya 3.500 TL üzeri 1.000 TL indirim koşulları; ödeme ekranında kampanya seçimi gerekir.",
-      "source": "https://www.maximum.com.tr/kampanyalar/troy-ticari-karti-ile-getir-ve-getirbuyuk-market-alisverislerinde-indirim-firsati",
-      "eligibility": "YALNIZCA İş Bankası TROY logolu ticari kredi veya banka kartları. Bireysel kartlar uygun değil."
-    },
-    {
-      "id": "akb-flo-202610",
-      "bank": "Akbank",
-      "category": "Giyim",
-      "title": "FLO’da 2.500 TL üzeri ilk alışverişe 300 TL chip-para",
-      "start": "2026-10-01",
-      "end": "2026-10-31",
-      "summary": "Tek seferde 2.500 TL ve üzeri ilk alışveriş. İlk harcamadan önce SMS ile katılım gerekir; ödül kullanım süresi sınırlı.",
-      "source": "https://www.axess.com.tr/axess/kampanyalar/axesse-ozel-floda-300-tl-chip-para",
-      "eligibility": "Axess kampanyası; kart ürünü ve istisnalar resmî sayfadan kontrol edilmeli."
-    },
-    {
-      "id": "isb-amazon-202610",
-      "bank": "İş Bankası",
-      "category": "Online Alışveriş",
-      "title": "Amazon.com.tr’de 3.000 TL alışverişe 300 TL MaxiPuan",
-      "start": "2026-10-16",
-      "end": "2026-10-31",
-      "summary": "16–31 Ekim arasında 3.000 TL ve üzeri ilk alışveriş için kampanya. Katılım ve ürün kapsamı kontrol edilmeli.",
-      "source": "https://www.isbank.com.tr/kampanyalar/e-ticaret-kampanyalari",
-      "eligibility": "Maximum Kart; segment ve işlem istisnaları kontrol edilmeli."
-    },
-    {
-      "id": "isb-eticaret-202610",
-      "bank": "İş Bankası",
-      "category": "Online Alışveriş",
-      "title": "E-ticarette 1.000 TL’ye varan MaxiPuan",
-      "start": "2026-10-01",
-      "end": "2026-10-31",
-      "summary": "Seçili e-ticaret sitelerinde farklı günlerde ikinci ve sonraki 3.000 TL üzeri işlemlere 250 TL, toplam 1.000 TL’ye kadar.",
-      "source": "https://www.isbank.com.tr/kampanyalar/e-ticaret-kampanyalari",
-      "eligibility": "Maximum Kart; ilk işlem ödül sağlamayabilir; katılım koşulları kontrol edilmeli."
-    },
-    {
-      "id": "isb-market10k-202610",
-      "bank": "İş Bankası",
-      "category": "Market",
-      "title": "10.000 TL üzeri market alışverişine 1.000 TL’ye varan MaxiPuan",
-      "start": "2026-10-01",
-      "end": "2026-10-31",
-      "summary": "Anlaşmalı marketlerde tek seferde 10.000 TL üzeri ilk işlemde 500 TL veya 20.000 TL üzeri işlemde 1.000 TL; İşCep katılımı gerekli.",
-      "source": "https://www.isbank.com.tr/kampanyalar/gida-market-kampanyalari",
-      "eligibility": "Maximum Kart ve anlaşmalı işyeri koşulları geçerli."
-    },
-    {
-      "id": "isb-metro-202610",
-      "bank": "İş Bankası",
-      "category": "Market",
-      "title": "Metro mağazalarında 5.000 TL’ye 300 TL MaxiPuan",
-      "start": "2026-10-01",
-      "end": "2026-10-31",
-      "summary": "Metro’da tek seferde 5.000 TL üzeri ilk alışveriş; İşCep/Maximum Mobil üzerinden katılım.",
-      "source": "https://www.isbank.com.tr/kampanyalar/gida-market-kampanyalari",
-      "eligibility": "Maximum Kart ve mağaza koşulları geçerli."
-    },
-    {
-      "id": "halk-market-202610",
-      "bank": "Halkbank",
-      "category": "Market",
-      "title": "30.000 TL birikimli market harcamasına 1.000 TL ParafPara",
-      "start": "2026-10-01",
-      "end": "2026-10-31",
-      "summary": "Yurt içi market, kasap, manav ve şarküteri harcamalarında toplam 30.000 TL eşiği; harcamadan önce katılım.",
-      "source": "https://www.paraf.com.tr/tr/kampanyalar/market/market-harcamalariniza-1000tl-parafpara1.html",
-      "eligibility": "Paraf kampanyası; kart türleri, işlemler ve istisnalar kontrol edilmeli."
-    },
-    {
-      "id": "halk-giyim-202610",
-      "bank": "Halkbank",
-      "category": "Giyim",
-      "title": "25.000 TL birikimli giyim ve kozmetiğe 1.250 TL ParafPara",
-      "start": "2026-10-01",
-      "end": "2026-10-31",
-      "summary": "Yurt içinde giyim, kozmetik, optik ve saat harcamalarında toplam 25.000 TL eşiği; ilk işlemden önce katılım.",
-      "source": "https://www.paraf.com.tr/tr/kampanyalar/giyim-kozmetik-ve-aksesuar/giyim-kozmetik-optik-ve-saat-alisverislerinize-1250tl-parafpara.html",
-      "eligibility": "Paraf kampanyası; kart ve işlem istisnaları kontrol edilmeli."
-    },
-    {
-      "id": "yk-restoran-202610",
+      "id": "yk-dr",
       "bank": "Yapı Kredi",
-      "category": "Restoran",
-      "title": "Restoranda 600 TL’ye varan Worldpuan",
-      "start": "2026-10-03",
+      "category": "Kitap/Kırtasiye",
+      "title": "D&R’da 335 TL D&R Puan",
+      "start": "2026-10-01",
       "end": "2026-10-31",
-      "summary": "2.000 TL üzeri uygun restoran işlemi başına 100 TL, World Pay ile ek 50 TL; toplam üst limit 600 TL. Katılım gerekir.",
-      "source": "https://www.worldcard.com.tr/kampanyalar/restoran-harcamalariniza-toplamda-600-tlye-varan-worldpuan-hediye",
-      "eligibility": "World kart, World POS ve ödeme yöntemi koşulları geçerli."
+      "summary": "D&R mağazalarında ve dr.com.tr’de tek seferde 1.500 TL ve üzeri alışverişe 335 TL D&R Puan; ayrıca 7 taksite kadar fırsat. World Mobil katılımı ve işyeri koşulları kontrol edilmeli.",
+      "source": "https://www.worldcard.com.tr/kampanyalar/worldun-35-yilina-ozel-dandrda-335-tl-dandr-puan-ustelik-7-taksit",
+      "eligibility": "World; uygun kart ve POS ayrıntıları resmî sayfada.",
+      "eligibleFamilies": [
+        "World"
+      ],
+      "reviewStatus": "source-preview",
+      "usagePermission": "not-granted"
     },
     {
-      "id": "yk-petshop-202610",
-      "bank": "Yapı Kredi",
-      "category": "Ev & Yaşam",
-      "title": "Petshop ve veteriner harcamalarına 300 TL’ye varan Worldpuan",
-      "start": "2026-10-03",
-      "end": "2026-10-31",
-      "summary": "1.500 TL üzeri uygun işlemlere 100 TL, toplam 300 TL’ye kadar; katılım gerekir.",
-      "source": "https://www.worldcard.com.tr/kampanyalar/petshop-ve-veteriner-harcamalarinizda-worldpuan-firsati",
-      "eligibility": "World POS, kart ve aynı gün işlem kısıtları kontrol edilmeli."
-    },
-    {
-      "id": "yk-giyim-202610",
+      "id": "yk-giyim",
       "bank": "Yapı Kredi",
       "category": "Giyim",
       "title": "Giyim ve kozmetikte 1.500 TL’ye varan Worldpuan",
       "start": "2026-10-03",
       "end": "2026-10-31",
-      "summary": "İlk işlemden sonraki 3.000 TL üzeri uygun alışverişlerde 100 TL; World Pay ile ek 50 TL. Katılım gerekir.",
+      "summary": "İlk alışverişten sonraki her 3.000 TL ve üzeri uygun harcamaya 100 TL, World Pay ile ek 50 TL; toplam üst limit 1.500 TL. World üye işyeri ve katılım koşulları var.",
       "source": "https://www.worldcard.com.tr/kampanyalar/giyim-ve-kozmetik-alisverislerinize-toplamda-1500-tlye-varan-worldpuan-firsati-ekim-2026",
-      "eligibility": "World üye işyeri/POS koşulları; ilk işlem ödülsüz olabilir."
+      "eligibility": "World; World Pay ve POS koşulları ayrıca incelenmeli.",
+      "eligibleFamilies": [
+        "World"
+      ],
+      "reviewStatus": "source-preview",
+      "usagePermission": "not-granted"
     },
     {
-      "id": "yk-ehamal-202610",
-      "bank": "Yapı Kredi",
-      "category": "Online Alışveriş",
-      "title": "e-Hamal’de 3.500 TL alışverişe 535 TL Worldpuan ve 500 TL indirim",
-      "start": "2026-10-01",
-      "end": "2026-10-31",
-      "summary": "Chippin üzerinden e-Hamal’de 3.500 TL üzeri tek çekim işlem; World POS ve katılım koşulları geçerli.",
-      "source": "https://www.worldcard.com.tr/kampanyalar/worldun-35-yilina-ozel-e-hamalcomda-3500-tl-alisverisinize-535-tl-worldpuan-ve-500-tl-indirim",
-      "eligibility": "World ve Chippin ile ödeme koşulları; indirim ve puan farklı avantaj türleridir."
-    },
-    {
-      "id": "yk-hatemoglu-202610",
-      "bank": "Yapı Kredi",
-      "category": "Giyim",
-      "title": "Hatemoğlu’nda 10.000 TL üzeri alışverişe 1.035 TL Worldpuan",
-      "start": "2026-10-01",
-      "end": "2026-10-31",
-      "summary": "Hatemoğlu mağazası veya online mağazada tek seferde 10.000 TL üzeri alışveriş. Katılım ve ilk alışveriş koşulları var.",
-      "source": "https://www.worldcard.com.tr/kampanyalar/worldun-35-yilina-ozel-hatemoglunda-1035-tl-worldpuan",
-      "eligibility": "World bireysel kartlar için kampanya koşulları ayrıca incelenmeli."
-    },
-    {
-      "id": "yk-jomalone-202610",
-      "bank": "Yapı Kredi",
-      "category": "Kozmetik",
-      "title": "Jo Malone London’da 1.035 TL’ye varan Worldpuan",
-      "start": "2026-10-07",
-      "end": "2026-10-31",
-      "summary": "Fiziksel mağazada 3.500 TL üzeri 350 TL; 7.000 TL üzeri 1.035 TL Worldpuan. Katılım gerekir.",
-      "source": "https://www.worldcard.com.tr/kampanyalar/worldun-35-yilina-ozel-jo-malone-londonda-1035-tlye-varan-worldpuan",
-      "eligibility": "World kart ve fiziki mağaza koşulları geçerli."
-    },
-    {
-      "id": "gar-yemek-202610",
+      "id": "gar-yemek",
       "bank": "Garanti BBVA",
-      "category": "Restoran",
-      "title": "Yemek platformlarında 300 TL’ye varan bonus",
+      "category": "Yemek",
+      "title": "Seçili yemek platformlarında 300 TL’ye varan bonus",
       "start": "2026-10-01",
       "end": "2026-10-31",
-      "summary": "Seçili yemek platformlarında 300 TL üzeri işlemlerde 100 TL, toplam 300 TL. Yalnızca kampanya ile iletişim kurulan müşteriler; kişiye özel olabilir.",
+      "summary": "Her 300 TL ve üzeri uygun harcamaya 100 TL; toplam 300 TL bonus. Yalnızca 18–26 yaş grubu için, önceden katılım gerekli; bazı kartlar hariç.",
       "source": "https://www.bonus.com.tr/kampanyalar/bonus-yemek-platformu-kampanyasi",
-      "eligibility": "Yalnızca davetli müşteriler; herkese açık kazanım varsayılmamalı."
+      "eligibility": "Bonus kredi kartları ve Paracard; Flexi, ticari ve Money Bonus gibi kartlar hariç. 18–26 yaş şartı var.",
+      "eligibleFamilies": [
+        "Bonus"
+      ],
+      "reviewStatus": "source-preview",
+      "usagePermission": "not-granted"
     },
     {
-      "id": "yk-migros-chippin-202610",
-      "bank": "Yapı Kredi",
+      "id": "hal-market",
+      "bank": "Halkbank",
       "category": "Market",
-      "title": "Migros Chippin ile 150 TL Worldpuan",
+      "title": "Market harcamasına 1.000 TL ParafPara",
       "start": "2026-10-01",
       "end": "2026-10-31",
-      "summary": "Migros’ta Chippin üzerinden üç farklı günde 1.000 TL üzeri alışveriş koşulu.",
-      "source": "https://www.worldcard.com.tr/kampanyalar/gida-market",
-      "eligibility": "World ve Chippin ile ödeme koşulları kontrol edilmeli."
+      "summary": "Yurt içi uygun market harcamalarının toplamı 30.000 TL ve üzerine ulaştığında 1.000 TL ParafPara. Harcamadan önce Paraf Mobil/Halkbank Mobil veya SMS ile katılım gerekli.",
+      "source": "https://www.paraf.com.tr/tr/kampanyalar/market/market-harcamalariniza-1000tl-parafpara1.html",
+      "eligibility": "Paraf; kart kapsamını resmî koşullardan doğrulayın.",
+      "eligibleFamilies": [
+        "Paraf"
+      ],
+      "reviewStatus": "source-preview",
+      "usagePermission": "not-granted"
     },
     {
-      "id": "yk-kahve-202610",
-      "bank": "Yapı Kredi",
+      "id": "hal-troy",
+      "bank": "Halkbank",
       "category": "Restoran",
-      "title": "Kahve Dünyası Chippin ile 50 TL Worldpuan ve 25 TL ChipPuan",
+      "title": "Paraf TROY ile restoran/kafede 400 TL’ye varan indirim",
       "start": "2026-10-01",
       "end": "2026-10-31",
-      "summary": "250 TL üzeri uygun Chippin işlemi; iki ödül türünün kullanım koşulları ayrı.",
-      "source": "https://www.worldcard.com.tr/kampanyalar/gida-market",
-      "eligibility": "World ve Chippin şartları kontrol edilmeli."
-    },
-    {
-      "id": "yk-kim-202610",
-      "bank": "Yapı Kredi",
-      "category": "Market",
-      "title": "Kim Market Chippin ile 150 TL Worldpuan ve 100 TL ChipPuan",
-      "start": "2026-10-01",
-      "end": "2026-10-31",
-      "summary": "Üç farklı günde 500 TL üzeri alışveriş; Chippin üzerinden ödeme ve katılım koşulları.",
-      "source": "https://www.worldcard.com.tr/kampanyalar/gida-market",
-      "eligibility": "World ve Chippin şartları kontrol edilmeli."
+      "summary": "TROY logolu bireysel kredi kartıyla restoran/kafe sektöründe her 1.500 TL ve üzeri uygun harcamaya 100 TL, toplam 400 TL indirim. Önceden katılım gerekir.",
+      "source": "https://www.paraf.com.tr/tr/kampanyalar/kafe-ve-restoran/paraf-troy-kartlara-ozel-secili-sektorlerde-400tlye-varan-indirim-kampanyasi.html",
+      "eligibility": "Yalnızca TROY logolu bireysel kredi kartları; ticari kartlar hariç.",
+      "eligibleFamilies": [
+        "Paraf"
+      ],
+      "reviewStatus": "source-preview",
+      "usagePermission": "not-granted"
     }
   ],
-  "notice": "Resmî sayfalardan derlenmiş kaynak önizlemeleri. Ticari yeniden yayın izni ve tüm uygunluk koşulları doğrulanmamıştır; kesin kazanç hesabına dahil edilmez."
+  "notice": "Kaynak özetleri bilgilendirme amaçlıdır; yeniden kullanım izni verilmiş değildir. Ödüller kesin kazanım hesabına dahil edilmez."
 }
