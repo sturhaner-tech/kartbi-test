@@ -1,0 +1,1 @@
+Kartbi V50 — Secilen kart bazinda kampanya uygunluk karsilastirmasi. Yalnizca beyana dayali on uygunluk; kesin kazanc hesaplama ve en iyi kart siralamasi kapali. Kategori ve tarih filtresi uygulanir. Tutar bilgi amaclidir ve kampanya esigi icin kullanilmaz.

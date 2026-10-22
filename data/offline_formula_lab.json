@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 2,
+  "mode": "offline-simulation-only",
+  "publicationEnabled": false,
+  "formulaApproval": "none",
+  "disclaimer": "18 OFFLINE HYPOTHESES, not verified bank offers. No automatic publication or user reward estimates.",
+  "rules": [
+    {
+      "campaign_id": "ak-market",
+      "kind": "subsequent_qualifying_transactions",
+      "min_amount_try": 2750,
+      "reward_try": 75,
+      "qr_extra_try": 25,
+      "cap_try": 1000,
+      "assumptions": [
+        "first qualifying transaction is not rewarded",
+        "same day same merchant exclusions handled upstream",
+        "only qualifying purchases passed to simulation"
+      ]
+    },
+    {
+      "campaign_id": "ak-flo",
+      "kind": "first_qualifying_purchase",
+      "min_amount_try": 2500,
+      "reward_try": 300,
+      "cap_try": 300,
+      "assumptions": [
+        "participation, eligible card, merchant and POS independently confirmed"
+      ]
+    },
+    {
+      "campaign_id": "qnb-sporthink",
+      "kind": "first_qualifying_purchase",
+      "min_amount_try": 5000,
+      "reward_try": 500,
+      "cap_try": 500,
+      "assumptions": [
+        "participation and card eligibility independently confirmed"
+      ]
+    },
+    {
+      "campaign_id": "ak-enplus",
+      "kind": "first_qualifying_purchase",
+      "min_amount_try": 15000,
+      "reward_try": 1000,
+      "cap_try": 1000,
+      "assumptions": [
+        "Offline hypothesis; bank source and eligibility not independently verified",
+        "Transaction flags eligible=True are assertions by tester, not bank confirmation"
+      ]
+    },
+    {
+      "campaign_id": "ak-ozd",
+      "kind": "first_qualifying_purchase",
+      "min_amount_try": 3000,
+      "reward_try": 350,
+      "cap_try": 350,
+      "assumptions": [
+        "Offline hypothesis; bank source and eligibility not independently verified",
+        "Transaction flags eligible=True are assertions by tester, not bank confirmation"
+      ]
+    },
+    {
+      "campaign_id": "ak-obilet",
+      "kind": "first_qualifying_purchase",
+      "min_amount_try": 2000,
+      "reward_try": 150,
+      "cap_try": 150,
+      "assumptions": [
+        "Offline hypothesis; bank source and eligibility not independently verified",
+        "Transaction flags eligible=True are assertions by tester, not bank confirmation"
+      ]
+    },
+    {
+      "campaign_id": "yk-dr",
+      "kind": "first_qualifying_purchase",
+      "min_amount_try": 1500,
+      "reward_try": 335,
+      "cap_try": 335,
+      "assumptions": [
+        "Offline hypothesis; bank source and eligibility not independently verified",
+        "Transaction flags eligible=True are assertions by tester, not bank confirmation"
+      ]
+    },
+    {
+      "campaign_id": "qnb-elle",
+      "kind": "first_qualifying_purchase",
+      "min_amount_try": 6500,
+      "reward_try": 500,
+      "cap_try": 500,
+      "assumptions": [
+        "Offline hypothesis; bank source and eligibility not independently verified",
+        "Transaction flags eligible=True are assertions by tester, not bank confirmation"
+      ]
+    },
+    {
+      "campaign_id": "qnb-korkmaz",
+      "kind": "first_qualifying_purchase",
+      "min_amount_try": 10000,
+      "reward_try": 1000,
+      "cap_try": 1000,
+      "assumptions": [
+        "Offline hypothesis; bank source and eligibility not independently verified",
+        "Transaction flags eligible=True are assertions by tester, not bank confirmation"
+      ]
+    },
+    {
+      "campaign_id": "qnb-zara",
+      "kind": "cumulative_threshold",
+      "min_amount_try": 13000,
+      "reward_try": 1000,
+      "cap_try": 1000,
+      "assumptions": [
+        "Offline hypothesis; bank source and eligibility not independently verified",
+        "Transaction flags eligible=True are assertions by tester, not bank confirmation",
+        "Physical-store-only condition not inferred from transaction amount"
+      ]
+    },
+    {
+      "campaign_id": "hal-market",
+      "kind": "cumulative_threshold",
+      "min_amount_try": 30000,
+      "reward_try": 1000,
+      "cap_try": 1000,
+      "assumptions": [
+        "Offline hypothesis; bank source and eligibility not independently verified",
+        "Transaction flags eligible=True are assertions by tester, not bank confirmation"
+      ]
+    },
+    {
+      "campaign_id": "is-market",
+      "kind": "cumulative_threshold_strict_below",
+      "min_amount_try": 15000,
+      "reward_try": 750,
+      "cap_try": 750,
+      "assumptions": [
+        "Offline hypothesis; bank source and eligibility not independently verified",
+        "Transaction flags eligible=True are assertions by tester, not bank confirmation"
+      ],
+      "per_transaction_max_exclusive_try": 1500
+    },
+    {
+      "campaign_id": "yk-giyim",
+      "kind": "subsequent_qualifying_transactions",
+      "min_amount_try": 3000,
+      "reward_try": 100,
+      "cap_try": 1500,
+      "assumptions": [
+        "Offline hypothesis; bank source and eligibility not independently verified",
+        "Transaction flags eligible=True are assertions by tester, not bank confirmation"
+      ]
+    },
+    {
+      "campaign_id": "gar-yemek",
+      "kind": "per_qualifying_transaction",
+      "min_amount_try": 300,
+      "reward_try": 100,
+      "cap_try": 300,
+      "assumptions": [
+        "Offline hypothesis; bank source and eligibility not independently verified",
+        "Transaction flags eligible=True are assertions by tester, not bank confirmation"
+      ]
+    },
+    {
+      "campaign_id": "hal-troy",
+      "kind": "per_qualifying_transaction",
+      "min_amount_try": 1500,
+      "reward_try": 100,
+      "cap_try": 400,
+      "assumptions": [
+        "Offline hypothesis; bank source and eligibility not independently verified",
+        "Transaction flags eligible=True are assertions by tester, not bank confirmation"
+      ]
+    },
+    {
+      "campaign_id": "gar-ulasim",
+      "kind": "per_qualifying_transaction",
+      "min_amount_try": 100,
+      "reward_try": 50,
+      "cap_try": 250,
+      "assumptions": [
+        "Offline hypothesis; bank source and eligibility not independently verified",
+        "Transaction flags eligible=True are assertions by tester, not bank confirmation"
+      ]
+    },
+    {
+      "campaign_id": "yk-ehamal",
+      "kind": "first_qualifying_purchase",
+      "min_amount_try": 3500,
+      "reward_try": 0,
+      "cap_try": 1035,
+      "assumptions": [
+        "Offline hypothesis; bank source and eligibility not independently verified",
+        "Transaction flags eligible=True are assertions by tester, not bank confirmation",
+        "Discount and points are distinct benefits; not fungible cash"
+      ],
+      "reward_components": {
+        "worldpuan_try": 535,
+        "discount_try": 500
+      },
+      "benefit_breakdown": [
+        {
+          "type": "merchant_discount",
+          "nominal_try": 500,
+          "requires": "Chippin payment and qualifying purchase"
+        },
+        {
+          "type": "worldpuan",
+          "nominal_try": 535,
+          "requires": "World Mobil opt-in and eligible World card/POS"
+        }
+      ],
+      "requires_separate_benefit_evaluation": true
+    },
+    {
+      "campaign_id": "ak-mobilya-v29",
+      "kind": "tiered_first_purchase",
+      "min_amount_try": 0,
+      "reward_try": 0,
+      "cap_try": 2000,
+      "assumptions": [
+        "Offline hypothesis; bank source and eligibility not independently verified",
+        "Transaction flags eligible=True are assertions by tester, not bank confirmation"
+      ],
+      "tiers": [
+        {
+          "min_amount_try": 40000,
+          "reward_try": 250
+        },
+        {
+          "min_amount_try": 60000,
+          "reward_try": 750
+        },
+        {
+          "min_amount_try": 120000,
+          "reward_try": 2000
+        }
+      ]
+    }
+  ]
+}

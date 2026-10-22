@@ -1,0 +1,1 @@
+Kartbi V46 - Benefit type separation (offline only). e-Hamal merchant discount (500 TL) and Worldpuan (535 TL) are separate and must not be added as cash. Existing 18 draft formulas remain unapproved. No live publication or bank verification. Run python monitor/test_benefit_types.py.

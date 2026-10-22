@@ -1,0 +1,1 @@
+Kartbi V47: Kullanıcı beyanı temelli uygunluk üçlemesi (uygun değil / belirsiz / potansiyel uygun). 18 kampanya için 144 yerel senaryo. Banka teyidi, canlı kazanç, gerçek hesap erişimi veya kullanıcı veri saklama YOK. V46 dosyaları korunmuştur. Çalıştır: python monitor/test_eligibility_v47.py. Bu modül henüz arayüze bağlanmamıştır.

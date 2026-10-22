@@ -1,0 +1,1 @@
+Kartbi V48 — Kullanıcı beyanına dayalı uygunluk ekranı.\nKarşılaştırma > kampanya kartı > Uygunluğumu kontrol et.\nYanıtlar yalnızca bellekte tutulur; ödül hesaplanmaz; banka teyidi yapılmaz.\n

@@ -1,0 +1,1 @@
+Kartbi V49: Kampanya uygunlugunda sirali soru akisi. Ilk olumsuz yanitta durur; her seferinde tek soru gosterir. Yaniti degistirme/sifirlama desteklenir. Odul formulleri hala onaysizdir. Onceki V48 dosyalari dahildir. GitHub Pages canli test yapilmadi.

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "publicationEnabled": false,
+  "valuationPolicy": "no_conversion_to_cash",
+  "disclaimer": "Hypothetical benefit components, not bank-verified rewards",
+  "campaigns": [
+    {
+      "campaign_id": "yk-ehamal",
+      "components": [
+        {
+          "type": "merchant_discount",
+          "nominal_try": 500,
+          "cash_equivalent_approved": false
+        },
+        {
+          "type": "worldpuan",
+          "nominal_try": 535,
+          "cash_equivalent_approved": false
+        }
+      ],
+      "do_not_sum": true
+    }
+  ]
+}

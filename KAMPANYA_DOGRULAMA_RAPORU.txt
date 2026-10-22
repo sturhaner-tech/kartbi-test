@@ -1,0 +1,6 @@
+KARTBI V41 RESMI KAYNAK INCELEMESI - 22.10.2026
+
+18 resmi kampanya sayfasi incelendi. Temel tutar/tarih/kapsam kosullari kaynaklardan kontrol edildi.
+Ancak bireysel kart, katilim, onceki harcama, POS, musteriye ozel haklar ve kural motorunun birebir eslesmesi tam dogrulanmadi.
+Bu nedenle HICBIR kampanya kesin odul hesaplamasina onaylanmadi. Kullaniciya banka kaynagi ve kosullar gosterilir.
+Detaylar: data/verification_report.json

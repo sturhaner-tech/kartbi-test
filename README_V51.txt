@@ -1,0 +1,1 @@
+Kartbi V51 — karşılaştırma akışı için otomatik mantık testleri. Kategori seçiminin sessizce tüm kategorilere genişlemesi düzeltildi. Test: cd proje_koku && node monitor/test_comparison_v51.js. Bu test tarayıcı uçtan uca testi değildir; banka kampanya şartlarını doğrulamaz. Kesin kazanç kapalıdır.

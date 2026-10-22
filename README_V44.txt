@@ -1,0 +1,1 @@
+Kartbi V44 - Offline formula laboratory. 3 provisional formula models, 12 scenario checks. NOT VERIFIED FOR LIVE USE. Publication remains disabled. Run: python monitor/test_reward_simulation.py. All V43 files included.

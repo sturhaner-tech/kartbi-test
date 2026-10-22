@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "policy": "deny_by_default",
+  "disclaimer": "Provisional checks are NOT a verification of bank terms or payout formulas.",
+  "rules": [
+    {
+      "campaign_id": "ak-market",
+      "bank": "Akbank",
+      "source": "https://www.axess.com.tr/axess/kampanyalar/axess-ile-market-ve-gida-alisverislerinize-1000-tl-chip-para-firsati",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "required_evidence": [
+        "joined",
+        "eligible_card",
+        "eligible_pos",
+        "prior_transactions",
+        "payment_method"
+      ],
+      "rule_status": "provisional",
+      "calculation_approved": false,
+      "reward_amount": null,
+      "notes": "Ödül hesaplaması açılmadan önce banka metni ve kart/POS/katılım/geçmiş işlem koşulları bağımsız doğrulanmalı."
+    },
+    {
+      "campaign_id": "ak-flo",
+      "bank": "Akbank",
+      "source": "https://www.axess.com.tr/axess/kampanyalar/axesse-ozel-floda-300-tl-chip-para",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "required_evidence": [
+        "joined",
+        "eligible_card",
+        "eligible_pos",
+        "first_purchase"
+      ],
+      "rule_status": "provisional",
+      "calculation_approved": false,
+      "reward_amount": null,
+      "notes": "Ödül hesaplaması açılmadan önce banka metni ve kart/POS/katılım/geçmiş işlem koşulları bağımsız doğrulanmalı."
+    },
+    {
+      "campaign_id": "ak-enplus",
+      "bank": "Akbank",
+      "source": "https://www.axess.com.tr/axess/kampanyalar/enplusta-1000-tl-chip-para",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "required_evidence": [
+        "joined",
+        "eligible_card",
+        "eligible_pos",
+        "first_purchase"
+      ],
+      "rule_status": "provisional",
+      "calculation_approved": false,
+      "reward_amount": null,
+      "notes": "Ödül hesaplaması açılmadan önce banka metni ve kart/POS/katılım/geçmiş işlem koşulları bağımsız doğrulanmalı."
+    },
+    {
+      "campaign_id": "ak-ozd",
+      "bank": "Akbank",
+      "source": "https://www.axess.com.tr/axess/kampanyalar/ozdilekteyimde-3000-tl-ve-uzeri-ilk-alisverisinizde-350-tl-chip-para",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "required_evidence": [
+        "joined",
+        "eligible_card",
+        "eligible_pos",
+        "first_purchase",
+        "online_purchase"
+      ],
+      "rule_status": "provisional",
+      "calculation_approved": false,
+      "reward_amount": null,
+      "notes": "Ödül hesaplaması açılmadan önce banka metni ve kart/POS/katılım/geçmiş işlem koşulları bağımsız doğrulanmalı."
+    },
+    {
+      "campaign_id": "ak-obilet",
+      "bank": "Akbank",
+      "source": "https://www.axess.com.tr/axess/kampanyalar/axesse-ozel-obiletcomda-150-tlye-varan-chip-para",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "required_evidence": [
+        "joined",
+        "eligible_card",
+        "eligible_pos",
+        "first_purchase"
+      ],
+      "rule_status": "provisional",
+      "calculation_approved": false,
+      "reward_amount": null,
+      "notes": "Ödül hesaplaması açılmadan önce banka metni ve kart/POS/katılım/geçmiş işlem koşulları bağımsız doğrulanmalı."
+    },
+    {
+      "campaign_id": "is-market",
+      "bank": "İş Bankası",
+      "source": "https://www.maximum.com.tr/kampanyalar/maximumdan-birikimli-market-alisverislerinize-maxipuan-kampanyasi",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "required_evidence": [
+        "joined",
+        "eligible_card",
+        "eligible_pos",
+        "prior_transactions",
+        "same_day_merchant"
+      ],
+      "rule_status": "provisional",
+      "calculation_approved": false,
+      "reward_amount": null,
+      "notes": "Ödül hesaplaması açılmadan önce banka metni ve kart/POS/katılım/geçmiş işlem koşulları bağımsız doğrulanmalı."
+    },
+    {
+      "campaign_id": "yk-dr",
+      "bank": "Yapı Kredi",
+      "source": "https://www.worldcard.com.tr/kampanyalar/worldun-35-yilina-ozel-dandrda-335-tl-dandr-puan-ustelik-7-taksit",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "required_evidence": [
+        "joined",
+        "eligible_card",
+        "eligible_pos",
+        "first_purchase"
+      ],
+      "rule_status": "provisional",
+      "calculation_approved": false,
+      "reward_amount": null,
+      "notes": "Ödül hesaplaması açılmadan önce banka metni ve kart/POS/katılım/geçmiş işlem koşulları bağımsız doğrulanmalı."
+    },
+    {
+      "campaign_id": "yk-giyim",
+      "bank": "Yapı Kredi",
+      "source": "https://www.worldcard.com.tr/kampanyalar/giyim-ve-kozmetik-alisverislerinize-toplamda-1500-tlye-varan-worldpuan-firsati-ekim-2026",
+      "start": "2026-10-03",
+      "end": "2026-10-31",
+      "required_evidence": [
+        "joined",
+        "eligible_card",
+        "eligible_pos",
+        "prior_transactions",
+        "payment_method"
+      ],
+      "rule_status": "provisional",
+      "calculation_approved": false,
+      "reward_amount": null,
+      "notes": "Ödül hesaplaması açılmadan önce banka metni ve kart/POS/katılım/geçmiş işlem koşulları bağımsız doğrulanmalı."
+    },
+    {
+      "campaign_id": "gar-yemek",
+      "bank": "Garanti BBVA",
+      "source": "https://www.bonus.com.tr/kampanyalar/bonus-yemek-platformu-kampanyasi",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "required_evidence": [
+        "targeted",
+        "age_eligible",
+        "eligible_card",
+        "eligible_pos",
+        "prior_transactions"
+      ],
+      "rule_status": "provisional",
+      "calculation_approved": false,
+      "reward_amount": null,
+      "notes": "Ödül hesaplaması açılmadan önce banka metni ve kart/POS/katılım/geçmiş işlem koşulları bağımsız doğrulanmalı."
+    },
+    {
+      "campaign_id": "hal-market",
+      "bank": "Halkbank",
+      "source": "https://www.paraf.com.tr/tr/kampanyalar/market/market-harcamalariniza-1000tl-parafpara1.html",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "required_evidence": [
+        "joined",
+        "eligible_card",
+        "eligible_pos",
+        "prior_spend"
+      ],
+      "rule_status": "provisional",
+      "calculation_approved": false,
+      "reward_amount": null,
+      "notes": "Ödül hesaplaması açılmadan önce banka metni ve kart/POS/katılım/geçmiş işlem koşulları bağımsız doğrulanmalı."
+    },
+    {
+      "campaign_id": "hal-troy",
+      "bank": "Halkbank",
+      "source": "https://www.paraf.com.tr/tr/kampanyalar/kafe-ve-restoran/paraf-troy-kartlara-ozel-secili-sektorlerde-400tlye-varan-indirim-kampanyasi.html",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "required_evidence": [
+        "eligible_card",
+        "troy",
+        "eligible_pos",
+        "same_day_merchant",
+        "prior_transactions"
+      ],
+      "rule_status": "provisional",
+      "calculation_approved": false,
+      "reward_amount": null,
+      "notes": "Ödül hesaplaması açılmadan önce banka metni ve kart/POS/katılım/geçmiş işlem koşulları bağımsız doğrulanmalı."
+    },
+    {
+      "campaign_id": "qnb-sporthink",
+      "bank": "QNB",
+      "source": "https://www.qnb.com.tr/qnbfirst/kredi-karti/qnb-first-kart-kampanyalari/para-puan-kampanyalari/sporthinkde-500-tl-parapuan-ve-4-taksit-4901",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "required_evidence": [
+        "joined",
+        "eligible_card",
+        "eligible_pos",
+        "first_purchase"
+      ],
+      "rule_status": "provisional",
+      "calculation_approved": false,
+      "reward_amount": null,
+      "notes": "Ödül hesaplaması açılmadan önce banka metni ve kart/POS/katılım/geçmiş işlem koşulları bağımsız doğrulanmalı."
+    },
+    {
+      "campaign_id": "qnb-elle",
+      "bank": "QNB",
+      "source": "https://www.qnb.com.tr/qnbfirst/kredi-karti/qnb-first-kart-kampanyalari/para-puan-kampanyalari/ellede-500-tl-parapuan-ve-6-taksit-4911",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "required_evidence": [
+        "joined",
+        "eligible_card",
+        "eligible_pos",
+        "first_purchase"
+      ],
+      "rule_status": "provisional",
+      "calculation_approved": false,
+      "reward_amount": null,
+      "notes": "Ödül hesaplaması açılmadan önce banka metni ve kart/POS/katılım/geçmiş işlem koşulları bağımsız doğrulanmalı."
+    },
+    {
+      "campaign_id": "qnb-zara",
+      "bank": "QNB",
+      "source": "https://www.qnb.com.tr/qnbfirst/kredi-karti/qnb-first-kart-kampanyalari/para-puan-kampanyalari/zara-massimo-dutti-oysho-bershka-pullandbear-stradivarius-lefties-ve-zara-home-magazalarinda-1000-tl-parapuan-4905",
+      "start": "2026-10-01",
+      "end": "2026-10-24",
+      "required_evidence": [
+        "eligible_card",
+        "eligible_pos",
+        "physical_store",
+        "prior_spend"
+      ],
+      "rule_status": "provisional",
+      "calculation_approved": false,
+      "reward_amount": null,
+      "notes": "Ödül hesaplaması açılmadan önce banka metni ve kart/POS/katılım/geçmiş işlem koşulları bağımsız doğrulanmalı."
+    },
+    {
+      "campaign_id": "qnb-korkmaz",
+      "bank": "QNB",
+      "source": "https://www.qnb.com.tr/qnbfirst/kredi-karti/qnb-first-kart-kampanyalari/para-puan-kampanyalari/korkmazda-1000-tl-degerinde-parapuan-ve-9-taksit-4899",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "required_evidence": [
+        "eligible_card",
+        "eligible_pos",
+        "first_purchase"
+      ],
+      "rule_status": "provisional",
+      "calculation_approved": false,
+      "reward_amount": null,
+      "notes": "Ödül hesaplaması açılmadan önce banka metni ve kart/POS/katılım/geçmiş işlem koşulları bağımsız doğrulanmalı."
+    },
+    {
+      "campaign_id": "yk-ehamal",
+      "bank": "Yapı Kredi",
+      "source": "https://www.worldcard.com.tr/kampanyalar/worldun-35-yilina-ozel-e-hamalcomda-3500-tl-alisverisinize-535-tl-worldpuan-ve-500-tl-indirim",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "required_evidence": [
+        "joined",
+        "eligible_card",
+        "eligible_pos",
+        "chippin",
+        "single_payment"
+      ],
+      "rule_status": "provisional",
+      "calculation_approved": false,
+      "reward_amount": null,
+      "notes": "Ödül hesaplaması açılmadan önce banka metni ve kart/POS/katılım/geçmiş işlem koşulları bağımsız doğrulanmalı."
+    },
+    {
+      "campaign_id": "gar-ulasim",
+      "bank": "Garanti BBVA",
+      "source": "https://www.bonus.com.tr/kampanyalar/bonus-ulasim-karti-kampanya",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "required_evidence": [
+        "targeted",
+        "age_eligible",
+        "eligible_card",
+        "eligible_pos",
+        "prior_transactions"
+      ],
+      "rule_status": "provisional",
+      "calculation_approved": false,
+      "reward_amount": null,
+      "notes": "Ödül hesaplaması açılmadan önce banka metni ve kart/POS/katılım/geçmiş işlem koşulları bağımsız doğrulanmalı."
+    },
+    {
+      "campaign_id": "ak-mobilya-v29",
+      "bank": "Akbank",
+      "source": "https://www.axess.com.tr/axess/kampanyalar/axess-ile-mobilya-ve-yapi-marketi-harcamalarinizda-2000-tlye-varan-chip-para",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "required_evidence": [
+        "joined",
+        "eligible_card",
+        "eligible_pos",
+        "first_purchase",
+        "prior_transactions"
+      ],
+      "rule_status": "provisional",
+      "calculation_approved": false,
+      "reward_amount": null,
+      "notes": "Ödül hesaplaması açılmadan önce banka metni ve kart/POS/katılım/geçmiş işlem koşulları bağımsız doğrulanmalı."
+    }
+  ]
+}

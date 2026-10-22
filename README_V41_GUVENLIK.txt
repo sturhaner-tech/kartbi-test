@@ -1,0 +1,1 @@
+Kartbi V41: 18 kaynak bağlantılı özet, 0 onaylı ödül hesaplaması. Yayın güvenlik testi monitor/test_publication_gate.py. GitHub Actions workflow dosyası .github/workflows/source-watch.yml ayrıca web edit ile güncellenmeli. Gerçek banka koşullarının uçtan uca doğrulandığı iddia edilmez.
