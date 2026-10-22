@@ -1,0 +1,1 @@
+Kartbi V37: admin.html kaynak inceleme paneli. GitHub Actions source-watch raporunu JSON olarak manuel yükleyin. Panel statik ve herkese açıktır; giriş/yetkilendirme yoktur. Kararlar sadece tarayıcı localStorage içinde tutulur ve JSON olarak dışa aktarılabilir. Kampanya verisini otomatik güncellemez. V36 rapor üretme iş akışı aynen korunmuştur.

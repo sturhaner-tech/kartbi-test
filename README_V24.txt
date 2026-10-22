@@ -1,0 +1,1 @@
+Kartbi V24: Kampanya arama yazarken alan yeniden olusturulmaz. Coklu banka filtreleri ve banka > kart ailesi > segment > kart urunu secimi kampanya kesif sayfasina eklendi. index.html, sw.js ve data klasoru guncellenmelidir.
