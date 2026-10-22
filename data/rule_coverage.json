@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "generatedOn": "2026-10-22",
+  "notice": "18 conditional test formulas; reward eligibility and actual bank payout are not verified. Zara cumulative and Garanti transit rules modeled with explicit assumptions.",
+  "campaigns": [
+    {
+      "id": "ak-market",
+      "bank": "Akbank",
+      "family": [
+        "Axess"
+      ],
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "ruleStatus": "conditional-rule",
+      "source": "https://www.axess.com.tr/axess/kampanyalar/axess-ile-market-ve-gida-alisverislerinize-1000-tl-chip-para-firsati-",
+      "calculationStatus": "conditional-test",
+      "ruleVerifiedByBank": false
+    },
+    {
+      "id": "ak-flo",
+      "bank": "Akbank",
+      "family": [
+        "Axess"
+      ],
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "ruleStatus": "conditional-rule",
+      "source": "https://www.axess.com.tr/axess/kampanyalar/axesse-ozel-floda-300-tl-chip-para",
+      "calculationStatus": "conditional-test",
+      "ruleVerifiedByBank": false
+    },
+    {
+      "id": "ak-enplus",
+      "bank": "Akbank",
+      "family": [
+        "Axess"
+      ],
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "ruleStatus": "conditional-rule",
+      "source": "https://www.axess.com.tr/axess/kampanyalar/enplusta-1000-tl-chip-para",
+      "calculationStatus": "conditional-test",
+      "ruleVerifiedByBank": false
+    },
+    {
+      "id": "ak-ozd",
+      "bank": "Akbank",
+      "family": [
+        "Axess"
+      ],
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "ruleStatus": "conditional-rule",
+      "source": "https://www.axess.com.tr/axess/kampanyalar/ozdilekteyimde-3000-tl-ve-uzeri-ilk-alisverisinizde-350-tl-chip-para",
+      "calculationStatus": "conditional-test",
+      "ruleVerifiedByBank": false
+    },
+    {
+      "id": "ak-obilet",
+      "bank": "Akbank",
+      "family": [
+        "Axess"
+      ],
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "ruleStatus": "conditional-rule",
+      "source": "https://www.axess.com.tr/axess/kampanyalar/axesse-ozel-obiletcomda-150-tlye-varan-chip-para",
+      "calculationStatus": "conditional-test",
+      "ruleVerifiedByBank": false
+    },
+    {
+      "id": "is-market",
+      "bank": "İş Bankası",
+      "family": [
+        "Maximum"
+      ],
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "ruleStatus": "conditional-rule",
+      "source": "https://www.maximum.com.tr/kampanyalar/maximumdan-birikimli-market-alisverislerinize-maxipuan-kampanyasi",
+      "calculationStatus": "conditional-test",
+      "ruleVerifiedByBank": false
+    },
+    {
+      "id": "yk-dr",
+      "bank": "Yapı Kredi",
+      "family": [
+        "World"
+      ],
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "ruleStatus": "conditional-rule",
+      "source": "https://www.worldcard.com.tr/kampanyalar/worldun-35-yilina-ozel-dandrda-335-tl-dandr-puan-ustelik-7-taksit",
+      "calculationStatus": "conditional-test",
+      "ruleVerifiedByBank": false
+    },
+    {
+      "id": "yk-giyim",
+      "bank": "Yapı Kredi",
+      "family": [
+        "World"
+      ],
+      "start": "2026-10-03",
+      "end": "2026-10-31",
+      "ruleStatus": "conditional-rule",
+      "source": "https://www.worldcard.com.tr/kampanyalar/giyim-ve-kozmetik-alisverislerinize-toplamda-1500-tlye-varan-worldpuan-firsati-ekim-2026",
+      "calculationStatus": "conditional-test",
+      "ruleVerifiedByBank": false
+    },
+    {
+      "id": "gar-yemek",
+      "bank": "Garanti BBVA",
+      "family": [
+        "Bonus"
+      ],
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "ruleStatus": "conditional-rule",
+      "source": "https://www.bonus.com.tr/kampanyalar/bonus-yemek-platformu-kampanyasi",
+      "calculationStatus": "conditional-test",
+      "ruleVerifiedByBank": false
+    },
+    {
+      "id": "hal-market",
+      "bank": "Halkbank",
+      "family": [
+        "Paraf"
+      ],
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "ruleStatus": "conditional-rule",
+      "source": "https://www.paraf.com.tr/tr/kampanyalar/market/market-harcamalariniza-1000tl-parafpara1.html",
+      "calculationStatus": "conditional-test",
+      "ruleVerifiedByBank": false
+    },
+    {
+      "id": "hal-troy",
+      "bank": "Halkbank",
+      "family": [
+        "Paraf"
+      ],
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "ruleStatus": "conditional-rule",
+      "source": "https://www.paraf.com.tr/tr/kampanyalar/kafe-ve-restoran/paraf-troy-kartlara-ozel-secili-sektorlerde-400tlye-varan-indirim-kampanyasi.html",
+      "calculationStatus": "conditional-test",
+      "ruleVerifiedByBank": false
+    },
+    {
+      "id": "qnb-sporthink",
+      "bank": "QNB",
+      "family": [],
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "ruleStatus": "conditional-rule",
+      "source": "https://www.qnb.com.tr/qnbfirst/kredi-karti/qnb-first-kart-kampanyalari/para-puan-kampanyalari/sporthinkde-500-tl-parapuan-ve-4-taksit-4901",
+      "verifiedOn": "2026-10-22",
+      "rule": {
+        "minSpend": 5000,
+        "rewardTRY": 500,
+        "firstPurchase": true,
+        "joinBeforePurchase": true,
+        "excludedCards": [
+          "Miles&Smiles QNB",
+          "QNB Fix",
+          "commercial cards"
+        ],
+        "source": "https://www.qnb.com.tr/qnbfirst/kredi-karti/qnb-first-kart-kampanyalari/para-puan-kampanyalari/sporthinkde-500-tl-parapuan-ve-4-taksit-4901"
+      },
+      "calculationStatus": "conditional-test",
+      "ruleVerifiedByBank": false
+    },
+    {
+      "id": "qnb-elle",
+      "bank": "QNB",
+      "family": [],
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "ruleStatus": "conditional-rule",
+      "source": "https://www.qnb.com.tr/qnbfirst/kredi-karti/qnb-first-kart-kampanyalari/para-puan-kampanyalari/ellede-500-tl-parapuan-ve-6-taksit-4911",
+      "verifiedOn": "2026-10-22",
+      "rule": {
+        "minSpend": 6500,
+        "rewardTRY": 500,
+        "firstPurchase": true,
+        "joinBeforePurchase": true,
+        "excludedCards": [
+          "Miles&Smiles QNB",
+          "QNB Fix",
+          "commercial cards"
+        ],
+        "source": "https://www.qnb.com.tr/qnbfirst/kredi-karti/qnb-first-kart-kampanyalari/para-puan-kampanyalari/ellede-500-tl-parapuan-ve-6-taksit-4911"
+      },
+      "calculationStatus": "conditional-test",
+      "ruleVerifiedByBank": false
+    },
+    {
+      "id": "qnb-zara",
+      "bank": "QNB",
+      "family": [],
+      "start": "2026-10-01",
+      "end": "2026-10-24",
+      "ruleStatus": "conditional-rule",
+      "source": "https://www.qnb.com.tr/qnbfirst/kredi-karti/qnb-first-kart-kampanyalari/para-puan-kampanyalari/zara-massimo-dutti-oysho-bershka-pullandbear-stradivarius-lefties-ve-zara-home-magazalarinda-1000-tl-parapuan-4905",
+      "calculationStatus": "conditional-test",
+      "ruleVerifiedByBank": false,
+      "sourceConditionsReviewedOn": "2026-10-22"
+    },
+    {
+      "id": "qnb-korkmaz",
+      "bank": "QNB",
+      "family": [],
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "ruleStatus": "conditional-rule",
+      "source": "https://www.qnb.com.tr/qnbfirst/kredi-karti/qnb-first-kart-kampanyalari/para-puan-kampanyalari/korkmazda-1000-tl-degerinde-parapuan-ve-9-taksit-4899",
+      "calculationStatus": "conditional-test",
+      "ruleVerifiedByBank": false,
+      "sourceConditionsReviewedOn": "2026-10-22"
+    },
+    {
+      "id": "yk-ehamal",
+      "bank": "Yapı Kredi",
+      "family": [
+        "World"
+      ],
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "ruleStatus": "conditional-rule",
+      "source": "https://www.worldcard.com.tr/kampanyalar/worldun-35-yilina-ozel-e-hamalcomda-3500-tl-alisverisinize-535-tl-worldpuan-ve-500-tl-indirim",
+      "calculationStatus": "conditional-test",
+      "ruleVerifiedByBank": false,
+      "sourceConditionsReviewedOn": "2026-10-22"
+    },
+    {
+      "id": "gar-ulasim",
+      "bank": "Garanti BBVA",
+      "family": [
+        "Bonus"
+      ],
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "ruleStatus": "conditional-rule",
+      "source": "https://www.bonus.com.tr/kampanyalar/bonus-ulasim-karti-kampanya",
+      "calculationStatus": "conditional-test",
+      "ruleVerifiedByBank": false,
+      "sourceConditionsReviewedOn": "2026-10-22"
+    },
+    {
+      "id": "ak-mobilya-v29",
+      "bank": "Akbank",
+      "family": [
+        "Axess"
+      ],
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "ruleStatus": "conditional-rule",
+      "source": "https://www.axess.com.tr/axess/kampanyalar/axess-ile-mobilya-ve-yapi-marketi-harcamalarinizda-2000-tlye-varan-chip-para",
+      "calculationStatus": "conditional-test",
+      "ruleVerifiedByBank": false,
+      "sourceConditionsReviewedOn": "2026-10-22"
+    }
+  ]
+}

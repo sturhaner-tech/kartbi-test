@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-22",
+  "last_manual_review": "2026-10-22",
+  "total": 18,
+  "active": 18,
+  "expired": 0,
+  "upcoming": 0,
+  "active_by_bank": {
+    "Akbank": 6,
+    "İş Bankası": 1,
+    "Yapı Kredi": 3,
+    "Garanti BBVA": 2,
+    "Halkbank": 2,
+    "QNB": 4
+  },
+  "expired_ids": [],
+  "runtime_rule_count": 18,
+  "active_missing_rule_ids": [],
+  "errors": [],
+  "disclaimer": "No automatic source verification; review and update campaign terms manually."
+}

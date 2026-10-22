@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-21",
+  "checkedOn": "2026-10-22",
   "reviewType": "official-link-summary-no-licence",
   "campaigns": [
     {
@@ -178,7 +178,125 @@
       ],
       "reviewStatus": "source-preview",
       "usagePermission": "not-granted"
+    },
+    {
+      "id": "qnb-sporthink",
+      "bank": "QNB",
+      "category": "Giyim",
+      "title": "Sporthink’te 500 TL ParaPuan",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "summary": "İlk 5.000 TL ve üzeri uygun alışverişte 500 TL ParaPuan; önceden QNB Mobil/SMS katılımı gerekir. QNB Fix, Miles&Smiles QNB ve ticari kartlar hariç.",
+      "source": "https://www.qnb.com.tr/qnbfirst/kredi-karti/qnb-first-kart-kampanyalari/para-puan-kampanyalari/sporthinkde-500-tl-parapuan-ve-4-taksit-4901",
+      "eligibility": "Kart ailesi uygunluğu ayrıca teyit edilmeli; QNB First sayfasında yayımlanmıştır.",
+      "eligibleFamilies": [],
+      "reviewStatus": "source-preview",
+      "usagePermission": "not-granted",
+      "checkedOn": "2026-10-22",
+      "calculationStatus": "manual-review-required"
+    },
+    {
+      "id": "qnb-elle",
+      "bank": "QNB",
+      "category": "Giyim",
+      "title": "Elle’de 500 TL ParaPuan",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "summary": "İlk 6.500 TL ve üzeri uygun alışverişte 500 TL ParaPuan; önceden katılım gerekir.",
+      "source": "https://www.qnb.com.tr/qnbfirst/kredi-karti/qnb-first-kart-kampanyalari/para-puan-kampanyalari/ellede-500-tl-parapuan-ve-6-taksit-4911",
+      "eligibility": "Kart ailesi uygunluğu ayrıca teyit edilmeli; bazı kartlar hariç.",
+      "eligibleFamilies": [],
+      "reviewStatus": "source-preview",
+      "usagePermission": "not-granted",
+      "checkedOn": "2026-10-22",
+      "calculationStatus": "manual-review-required"
+    },
+    {
+      "id": "qnb-zara",
+      "bank": "QNB",
+      "category": "Giyim",
+      "title": "Zara grubu mağazalarında 1.000 TL ParaPuan",
+      "start": "2026-10-01",
+      "end": "2026-10-24",
+      "summary": "Yalnızca fiziksel mağazalarda, toplam 13.000 TL ve üzeri uygun alışverişe 1.000 TL ParaPuan; katılım gerekir.",
+      "source": "https://www.qnb.com.tr/qnbfirst/kredi-karti/qnb-first-kart-kampanyalari/para-puan-kampanyalari/zara-massimo-dutti-oysho-bershka-pullandbear-stradivarius-lefties-ve-zara-home-magazalarinda-1000-tl-parapuan-4905",
+      "eligibility": "Online alışveriş dahil değil; kart kapsamı teyit edilmeli.",
+      "eligibleFamilies": [],
+      "reviewStatus": "source-preview",
+      "usagePermission": "not-granted",
+      "checkedOn": "2026-10-22",
+      "calculationStatus": "manual-review-required"
+    },
+    {
+      "id": "qnb-korkmaz",
+      "bank": "QNB",
+      "category": "Ev yaşam",
+      "title": "Korkmaz’da 1.000 TL ParaPuan",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "summary": "QNB First kredi kartıyla ilk 10.000 TL ve üzeri uygun alışverişe Korkmaz mağazalarında kullanılabilen 1.000 TL ParaPuan. Önceden katılım gerekir.",
+      "source": "https://www.qnb.com.tr/qnbfirst/kredi-karti/qnb-first-kart-kampanyalari/para-puan-kampanyalari/korkmazda-1000-tl-degerinde-parapuan-ve-9-taksit-4899",
+      "eligibility": "QNB First kredi kartı; QNB Nakit, QNB Fix, Miles&Smiles ve ticari kartlar hariç.",
+      "eligibleFamilies": [],
+      "reviewStatus": "source-preview",
+      "usagePermission": "not-granted",
+      "checkedOn": "2026-10-22",
+      "calculationStatus": "manual-review-required"
+    },
+    {
+      "id": "yk-ehamal",
+      "bank": "Yapı Kredi",
+      "category": "Ev yaşam",
+      "title": "e-Hamal’da 535 TL Worldpuan + 500 TL indirim",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "summary": "Chippin üzerinden e-Hamal’da 3.500 TL ve üzeri tek çekim uygun alışverişe 535 TL Worldpuan ve 500 TL indirim; World POS ve katılım şartları var.",
+      "source": "https://www.worldcard.com.tr/kampanyalar/worldun-35-yilina-ozel-e-hamalcomda-3500-tl-alisverisinize-535-tl-worldpuan-ve-500-tl-indirim",
+      "eligibility": "World Mobil katılımı ve World POS koşulları uygulanır.",
+      "eligibleFamilies": [
+        "World"
+      ],
+      "reviewStatus": "source-preview",
+      "usagePermission": "not-granted",
+      "checkedOn": "2026-10-22",
+      "calculationStatus": "manual-review-required"
+    },
+    {
+      "id": "gar-ulasim",
+      "bank": "Garanti BBVA",
+      "category": "Ulaşım",
+      "title": "Ulaşım kartı yüklemelerinde 250 TL’ye varan bonus",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "summary": "18–26 yaş arası uygun müşterilere, her 100 TL ve üzeri ulaşım kartı yüklemesine 50 TL, toplam 250 TL bonus; yalnızca hedeflenen müşteriler.",
+      "source": "https://www.bonus.com.tr/kampanyalar/bonus-ulasim-karti-kampanya",
+      "eligibility": "18–26 yaş ve hedef müşteri koşulları; Bonus Flexi, Money Bonus ve diğer bazı kartlar hariç.",
+      "eligibleFamilies": [
+        "Bonus"
+      ],
+      "reviewStatus": "source-preview",
+      "usagePermission": "not-granted",
+      "checkedOn": "2026-10-22",
+      "calculationStatus": "manual-review-required"
+    },
+    {
+      "id": "ak-mobilya-v29",
+      "bank": "Akbank",
+      "category": "Ev yaşam",
+      "title": "Mobilya ve yapı marketinde 2.000 TL’ye varan chip-para",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "summary": "Tek işlemde 40.000 TL’ye 250 TL, 60.000 TL’ye 750 TL, 120.000 TL’ye 2.000 TL chip-para; harcama öncesi katılım gerekir.",
+      "source": "https://www.axess.com.tr/axess/kampanyalar/axess-ile-mobilya-ve-yapi-marketi-harcamalarinizda-2000-tlye-varan-chip-para",
+      "eligibility": "Axess; katılım ve işyeri sektörü koşulları geçerlidir.",
+      "eligibleFamilies": [
+        "Axess"
+      ],
+      "reviewStatus": "source-preview",
+      "usagePermission": "not-granted",
+      "checkedOn": "2026-10-22",
+      "calculationStatus": "manual-review-required"
     }
   ],
-  "notice": "Kaynak özetleri bilgilendirme amaçlıdır; yeniden kullanım izni verilmiş değildir. Ödüller kesin kazanım hesabına dahil edilmez."
+  "notice": "Resmî banka sayfalarına bağlantılı editoryal özetler. Tüm kampanyaları kapsamaz. Ticari yeniden kullanım izni alınmadı. Hesaplama için eksik koşullar manuel doğrulanmalı."
 }
