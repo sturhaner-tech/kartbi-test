@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-22T14:00:04.414970+00:00",
+  "checkedAt": "2026-10-22T14:57:07.944590+00:00",
   "campaignCount": 18,
-  "changedCount": 11,
-  "reviewRequiredCount": 12,
+  "changedCount": 10,
+  "reviewRequiredCount": 11,
   "campaigns": [
     {
       "id": "ak-market",
@@ -98,8 +98,8 @@
     {
       "id": "yk-ehamal",
       "status": "ok",
-      "changed": true,
-      "reviewRequired": true
+      "changed": false,
+      "reviewRequired": false
     },
     {
       "id": "gar-ulasim",
