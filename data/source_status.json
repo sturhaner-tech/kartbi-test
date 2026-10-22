@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-22T17:51:52.527640+00:00",
+  "checkedAt": "2026-10-22T19:04:22.879335+00:00",
   "campaignCount": 18,
-  "changedCount": 10,
+  "changedCount": 11,
   "reviewRequiredCount": 12,
   "campaigns": [
     {
       "id": "ak-market",
       "status": "ok",
-      "changed": null,
+      "changed": true,
       "reviewRequired": true
     },
     {
