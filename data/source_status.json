@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-22T12:45:56.894928+00:00",
+  "campaignCount": 18,
+  "changedCount": 0,
+  "reviewRequiredCount": 18,
+  "campaigns": [
+    {
+      "id": "ak-market",
+      "status": "ok",
+      "changed": null,
+      "reviewRequired": true
+    },
+    {
+      "id": "ak-flo",
+      "status": "ok",
+      "changed": null,
+      "reviewRequired": true
+    },
+    {
+      "id": "ak-enplus",
+      "status": "ok",
+      "changed": null,
+      "reviewRequired": true
+    },
+    {
+      "id": "ak-ozd",
+      "status": "ok",
+      "changed": null,
+      "reviewRequired": true
+    },
+    {
+      "id": "ak-obilet",
+      "status": "ok",
+      "changed": null,
+      "reviewRequired": true
+    },
+    {
+      "id": "is-market",
+      "status": "unavailable",
+      "changed": null,
+      "reviewRequired": true
+    },
+    {
+      "id": "yk-dr",
+      "status": "ok",
+      "changed": null,
+      "reviewRequired": true
+    },
+    {
+      "id": "yk-giyim",
+      "status": "ok",
+      "changed": null,
+      "reviewRequired": true
+    },
+    {
+      "id": "gar-yemek",
+      "status": "ok",
+      "changed": null,
+      "reviewRequired": true
+    },
+    {
+      "id": "hal-market",
+      "status": "ok",
+      "changed": null,
+      "reviewRequired": true
+    },
+    {
+      "id": "hal-troy",
+      "status": "ok",
+      "changed": null,
+      "reviewRequired": true
+    },
+    {
+      "id": "qnb-sporthink",
+      "status": "ok",
+      "changed": null,
+      "reviewRequired": true
+    },
+    {
+      "id": "qnb-elle",
+      "status": "ok",
+      "changed": null,
+      "reviewRequired": true
+    },
+    {
+      "id": "qnb-zara",
+      "status": "ok",
+      "changed": null,
+      "reviewRequired": true
+    },
+    {
+      "id": "qnb-korkmaz",
+      "status": "ok",
+      "changed": null,
+      "reviewRequired": true
+    },
+    {
+      "id": "yk-ehamal",
+      "status": "ok",
+      "changed": null,
+      "reviewRequired": true
+    },
+    {
+      "id": "gar-ulasim",
+      "status": "ok",
+      "changed": null,
+      "reviewRequired": true
+    },
+    {
+      "id": "ak-mobilya-v29",
+      "status": "ok",
+      "changed": null,
+      "reviewRequired": true
+    }
+  ]
+}
