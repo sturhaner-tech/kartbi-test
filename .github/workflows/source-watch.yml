@@ -1,0 +1,55 @@
+
+name: Kartbi campaign source watch
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kartbi-source-watch
+  cancel-in-progress: false
+
+jobs:
+  inspect:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Inspect official campaign pages
+        run: python monitor/check_sources.py
+
+      - name: Validate campaign data and rule coverage
+        run: python monitor/audit_feed.py
+
+      - name: Publish status and fingerprint baseline
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/source_status.json monitor/previous_hashes.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: hourly campaign source status"
+            git push origin HEAD:main
+          fi
+
+      - name: Upload source report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kartbi-campaign-source-report
+          path: |
+            monitor/report.json
+            data/source_status.json
+          retention-days: 30
