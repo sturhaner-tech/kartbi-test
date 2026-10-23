@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-23T07:59:59.996246+00:00",
+  "checkedAt": "2026-10-23T08:57:42.317593+00:00",
   "campaignCount": 18,
-  "changedCount": 11,
+  "changedCount": 6,
   "reviewRequiredCount": 12,
   "campaigns": [
     {
       "id": "ak-market",
-      "status": "ok",
-      "changed": true,
+      "status": "unavailable",
+      "changed": null,
       "reviewRequired": true
     },
     {
       "id": "ak-flo",
-      "status": "ok",
-      "changed": true,
+      "status": "unavailable",
+      "changed": null,
       "reviewRequired": true
     },
     {
       "id": "ak-enplus",
-      "status": "ok",
-      "changed": true,
+      "status": "unavailable",
+      "changed": null,
       "reviewRequired": true
     },
     {
       "id": "ak-ozd",
-      "status": "ok",
-      "changed": true,
+      "status": "unavailable",
+      "changed": null,
       "reviewRequired": true
     },
     {
       "id": "ak-obilet",
-      "status": "ok",
-      "changed": true,
+      "status": "unavailable",
+      "changed": null,
       "reviewRequired": true
     },
     {
