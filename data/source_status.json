@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-23T15:58:58.326018+00:00",
+  "checkedAt": "2026-10-23T16:56:58.800926+00:00",
   "campaignCount": 18,
   "changedCount": 6,
   "reviewRequiredCount": 12,
@@ -25,8 +25,8 @@
     },
     {
       "id": "ak-ozd",
-      "status": "ok",
-      "changed": true,
+      "status": "unavailable",
+      "changed": null,
       "reviewRequired": true
     },
     {
@@ -109,8 +109,8 @@
     },
     {
       "id": "ak-mobilya-v29",
-      "status": "unavailable",
-      "changed": null,
+      "status": "ok",
+      "changed": true,
       "reviewRequired": true
     }
   ]
