@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-23T17:51:52.434945+00:00",
+  "checkedAt": "2026-10-23T19:02:53.159592+00:00",
   "campaignCount": 18,
-  "changedCount": 6,
+  "changedCount": 5,
   "reviewRequiredCount": 12,
   "campaigns": [
     {
@@ -25,8 +25,8 @@
     },
     {
       "id": "ak-ozd",
-      "status": "ok",
-      "changed": true,
+      "status": "unavailable",
+      "changed": null,
       "reviewRequired": true
     },
     {
