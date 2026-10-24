@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-24T02:54:31.379231+00:00",
+  "checkedAt": "2026-10-24T03:55:51.816681+00:00",
   "campaignCount": 18,
   "changedCount": 6,
   "reviewRequiredCount": 12,
@@ -25,14 +25,14 @@
     },
     {
       "id": "ak-ozd",
-      "status": "unavailable",
-      "changed": null,
+      "status": "ok",
+      "changed": true,
       "reviewRequired": true
     },
     {
       "id": "ak-obilet",
-      "status": "ok",
-      "changed": true,
+      "status": "unavailable",
+      "changed": null,
       "reviewRequired": true
     },
     {
