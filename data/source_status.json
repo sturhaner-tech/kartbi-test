@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-24T21:49:03.167498+00:00",
+  "checkedAt": "2026-10-24T22:47:20.799535+00:00",
   "campaignCount": 18,
-  "changedCount": 5,
-  "reviewRequiredCount": 12,
+  "changedCount": 6,
+  "reviewRequiredCount": 13,
   "campaigns": [
     {
       "id": "ak-market",
@@ -86,8 +86,8 @@
     {
       "id": "qnb-zara",
       "status": "ok",
-      "changed": false,
-      "reviewRequired": false
+      "changed": true,
+      "reviewRequired": true
     },
     {
       "id": "qnb-korkmaz",
