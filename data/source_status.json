@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-25T03:56:22.061333+00:00",
+  "checkedAt": "2026-10-25T04:55:47.345367+00:00",
   "campaignCount": 18,
-  "changedCount": 6,
+  "changedCount": 4,
   "reviewRequiredCount": 13,
   "campaigns": [
     {
@@ -25,8 +25,8 @@
     },
     {
       "id": "ak-ozd",
-      "status": "ok",
-      "changed": true,
+      "status": "unavailable",
+      "changed": null,
       "reviewRequired": true
     },
     {
@@ -97,8 +97,8 @@
     },
     {
       "id": "yk-ehamal",
-      "status": "ok",
-      "changed": true,
+      "status": "unavailable",
+      "changed": null,
       "reviewRequired": true
     },
     {
