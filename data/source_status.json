@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-26T15:47:42.291150+00:00",
+  "checkedAt": "2026-10-26T17:04:54.246125+00:00",
   "campaignCount": 18,
   "changedCount": 6,
   "reviewRequiredCount": 13,
@@ -13,8 +13,8 @@
     },
     {
       "id": "ak-flo",
-      "status": "unavailable",
-      "changed": null,
+      "status": "ok",
+      "changed": true,
       "reviewRequired": true
     },
     {
@@ -109,8 +109,8 @@
     },
     {
       "id": "ak-mobilya-v29",
-      "status": "ok",
-      "changed": true,
+      "status": "unavailable",
+      "changed": null,
       "reviewRequired": true
     }
   ]
