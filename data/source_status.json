@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-27T08:05:12.165462+00:00",
+  "checkedAt": "2026-10-27T09:03:30.882282+00:00",
   "campaignCount": 18,
-  "changedCount": 6,
-  "reviewRequiredCount": 15,
+  "changedCount": 5,
+  "reviewRequiredCount": 13,
   "campaigns": [
     {
       "id": "ak-market",
@@ -43,8 +43,8 @@
     },
     {
       "id": "yk-dr",
-      "status": "unavailable",
-      "changed": null,
+      "status": "ok",
+      "changed": true,
       "reviewRequired": true
     },
     {
@@ -62,14 +62,14 @@
     {
       "id": "hal-market",
       "status": "ok",
-      "changed": true,
-      "reviewRequired": true
+      "changed": false,
+      "reviewRequired": false
     },
     {
       "id": "hal-troy",
       "status": "ok",
-      "changed": true,
-      "reviewRequired": true
+      "changed": false,
+      "reviewRequired": false
     },
     {
       "id": "qnb-sporthink",
