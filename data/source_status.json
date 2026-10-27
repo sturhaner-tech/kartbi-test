@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-27T10:01:45.784048+00:00",
+  "checkedAt": "2026-10-27T10:59:21.763160+00:00",
   "campaignCount": 18,
-  "changedCount": 6,
-  "reviewRequiredCount": 13,
+  "changedCount": 4,
+  "reviewRequiredCount": 12,
   "campaigns": [
     {
       "id": "ak-market",
@@ -25,8 +25,8 @@
     },
     {
       "id": "ak-ozd",
-      "status": "ok",
-      "changed": true,
+      "status": "unavailable",
+      "changed": null,
       "reviewRequired": true
     },
     {
@@ -98,8 +98,8 @@
     {
       "id": "yk-ehamal",
       "status": "ok",
-      "changed": true,
-      "reviewRequired": true
+      "changed": false,
+      "reviewRequired": false
     },
     {
       "id": "gar-ulasim",
