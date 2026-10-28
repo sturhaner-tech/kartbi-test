@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-28T09:10:51.181043+00:00",
+  "checkedAt": "2026-10-28T10:09:14.207053+00:00",
   "campaignCount": 18,
-  "changedCount": 10,
-  "reviewRequiredCount": 18,
+  "changedCount": 7,
+  "reviewRequiredCount": 15,
   "campaigns": [
     {
       "id": "ak-market",
@@ -74,14 +74,14 @@
     {
       "id": "qnb-sporthink",
       "status": "ok",
-      "changed": true,
-      "reviewRequired": true
+      "changed": false,
+      "reviewRequired": false
     },
     {
       "id": "qnb-elle",
       "status": "ok",
-      "changed": true,
-      "reviewRequired": true
+      "changed": false,
+      "reviewRequired": false
     },
     {
       "id": "qnb-zara",
@@ -92,8 +92,8 @@
     {
       "id": "qnb-korkmaz",
       "status": "ok",
-      "changed": true,
-      "reviewRequired": true
+      "changed": false,
+      "reviewRequired": false
     },
     {
       "id": "yk-ehamal",
