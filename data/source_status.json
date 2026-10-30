@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-30T16:08:06.814563+00:00",
+  "checkedAt": "2026-10-30T17:04:05.818752+00:00",
   "campaignCount": 18,
   "changedCount": 5,
-  "reviewRequiredCount": 12,
+  "reviewRequiredCount": 13,
   "campaigns": [
     {
       "id": "ak-market",
@@ -44,8 +44,8 @@
     {
       "id": "yk-dr",
       "status": "ok",
-      "changed": false,
-      "reviewRequired": false
+      "changed": true,
+      "reviewRequired": true
     },
     {
       "id": "yk-giyim",
@@ -109,8 +109,8 @@
     },
     {
       "id": "ak-mobilya-v29",
-      "status": "ok",
-      "changed": true,
+      "status": "unavailable",
+      "changed": null,
       "reviewRequired": true
     }
   ]
