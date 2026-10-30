@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-30T15:16:28.965900+00:00",
+  "checkedAt": "2026-10-30T16:08:06.814563+00:00",
   "campaignCount": 18,
-  "changedCount": 7,
-  "reviewRequiredCount": 15,
+  "changedCount": 5,
+  "reviewRequiredCount": 12,
   "campaigns": [
     {
       "id": "ak-market",
@@ -44,8 +44,8 @@
     {
       "id": "yk-dr",
       "status": "ok",
-      "changed": true,
-      "reviewRequired": true
+      "changed": false,
+      "reviewRequired": false
     },
     {
       "id": "yk-giyim",
@@ -62,14 +62,14 @@
     {
       "id": "hal-market",
       "status": "ok",
-      "changed": true,
-      "reviewRequired": true
+      "changed": false,
+      "reviewRequired": false
     },
     {
       "id": "hal-troy",
       "status": "ok",
-      "changed": true,
-      "reviewRequired": true
+      "changed": false,
+      "reviewRequired": false
     },
     {
       "id": "qnb-sporthink",
@@ -109,8 +109,8 @@
     },
     {
       "id": "ak-mobilya-v29",
-      "status": "unavailable",
-      "changed": null,
+      "status": "ok",
+      "changed": true,
       "reviewRequired": true
     }
   ]
