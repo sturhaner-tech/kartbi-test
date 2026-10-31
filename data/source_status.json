@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-31T08:59:56.538088+00:00",
+  "checkedAt": "2026-10-31T09:58:50.429165+00:00",
   "campaignCount": 18,
-  "changedCount": 5,
+  "changedCount": 4,
   "reviewRequiredCount": 13,
   "campaigns": [
     {
@@ -49,8 +49,8 @@
     },
     {
       "id": "yk-giyim",
-      "status": "ok",
-      "changed": true,
+      "status": "unavailable",
+      "changed": null,
       "reviewRequired": true
     },
     {
