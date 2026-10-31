@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-31T20:55:55.099563+00:00",
+  "checkedAt": "2026-10-31T21:54:10.625276+00:00",
   "campaignCount": 18,
-  "changedCount": 5,
-  "reviewRequiredCount": 13,
+  "changedCount": 3,
+  "reviewRequiredCount": 14,
   "campaigns": [
     {
       "id": "ak-market",
@@ -43,14 +43,14 @@
     },
     {
       "id": "yk-dr",
-      "status": "ok",
-      "changed": true,
+      "status": "unavailable",
+      "changed": null,
       "reviewRequired": true
     },
     {
       "id": "yk-giyim",
-      "status": "ok",
-      "changed": true,
+      "status": "unavailable",
+      "changed": null,
       "reviewRequired": true
     },
     {
@@ -92,13 +92,13 @@
     {
       "id": "qnb-korkmaz",
       "status": "ok",
-      "changed": false,
-      "reviewRequired": false
+      "changed": true,
+      "reviewRequired": true
     },
     {
       "id": "yk-ehamal",
-      "status": "ok",
-      "changed": true,
+      "status": "unavailable",
+      "changed": null,
       "reviewRequired": true
     },
     {
