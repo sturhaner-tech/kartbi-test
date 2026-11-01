@@ -1,87 +1,87 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-31T23:52:55.872781+00:00",
+  "checkedAt": "2026-11-01T01:32:26.341969+00:00",
   "campaignCount": 18,
-  "changedCount": 2,
-  "reviewRequiredCount": 13,
+  "changedCount": 0,
+  "reviewRequiredCount": 18,
   "campaigns": [
     {
       "id": "ak-market",
-      "status": "unavailable",
+      "status": "expired",
       "changed": null,
       "reviewRequired": true
     },
     {
       "id": "ak-flo",
-      "status": "unavailable",
+      "status": "expired",
       "changed": null,
       "reviewRequired": true
     },
     {
       "id": "ak-enplus",
-      "status": "unavailable",
+      "status": "expired",
       "changed": null,
       "reviewRequired": true
     },
     {
       "id": "ak-ozd",
-      "status": "unavailable",
+      "status": "expired",
       "changed": null,
       "reviewRequired": true
     },
     {
       "id": "ak-obilet",
-      "status": "unavailable",
+      "status": "expired",
       "changed": null,
       "reviewRequired": true
     },
     {
       "id": "is-market",
-      "status": "unavailable",
+      "status": "expired",
       "changed": null,
       "reviewRequired": true
     },
     {
       "id": "yk-dr",
-      "status": "unavailable",
+      "status": "expired",
       "changed": null,
       "reviewRequired": true
     },
     {
       "id": "yk-giyim",
-      "status": "unavailable",
+      "status": "expired",
       "changed": null,
       "reviewRequired": true
     },
     {
       "id": "gar-yemek",
-      "status": "ok",
-      "changed": true,
+      "status": "expired",
+      "changed": null,
       "reviewRequired": true
     },
     {
       "id": "hal-market",
-      "status": "ok",
-      "changed": false,
-      "reviewRequired": false
+      "status": "expired",
+      "changed": null,
+      "reviewRequired": true
     },
     {
       "id": "hal-troy",
-      "status": "ok",
-      "changed": false,
-      "reviewRequired": false
+      "status": "expired",
+      "changed": null,
+      "reviewRequired": true
     },
     {
       "id": "qnb-sporthink",
-      "status": "ok",
-      "changed": false,
-      "reviewRequired": false
+      "status": "expired",
+      "changed": null,
+      "reviewRequired": true
     },
     {
       "id": "qnb-elle",
-      "status": "ok",
-      "changed": false,
-      "reviewRequired": false
+      "status": "expired",
+      "changed": null,
+      "reviewRequired": true
     },
     {
       "id": "qnb-zara",
@@ -91,25 +91,25 @@
     },
     {
       "id": "qnb-korkmaz",
-      "status": "ok",
-      "changed": false,
-      "reviewRequired": false
+      "status": "expired",
+      "changed": null,
+      "reviewRequired": true
     },
     {
       "id": "yk-ehamal",
-      "status": "unavailable",
+      "status": "expired",
       "changed": null,
       "reviewRequired": true
     },
     {
       "id": "gar-ulasim",
-      "status": "ok",
-      "changed": true,
+      "status": "expired",
+      "changed": null,
       "reviewRequired": true
     },
     {
       "id": "ak-mobilya-v29",
-      "status": "unavailable",
+      "status": "expired",
       "changed": null,
       "reviewRequired": true
     }
